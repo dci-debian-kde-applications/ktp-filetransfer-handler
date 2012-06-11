@@ -1,0 +1,201 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-06-05 05:13+0200\n"
+"PO-Revision-Date: 2012-06-06 10:57+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: src/telepathy-base-job.cpp:96
+#, kde-format
+msgid "Telepathy reported an error while performing the requested operation:"
+msgid_plural ""
+"Telepathy reported %1 errors while performing the requested operation:"
+msgstr[0] ""
+"Telepathy rapporteerde een fout tijdens het uitvoeren van de gevraagde "
+"bewerking:"
+msgstr[1] ""
+"Telepathy rapporteerde %1 fouten tijdens het uitvoeren van de gevraagde "
+"bewerking:"
+
+#: src/telepathy-base-job.cpp:103
+#, kde-format
+msgctxt "The following format is: ' - <error name>: <error message>'"
+msgid " - %1: %2"
+msgstr " - %1: %2"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:127
+#: src/handle-outgoing-file-transfer-channel-job.cpp:115
+msgid "Invalid channel"
+msgstr "Ongeldig kanaal"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:136
+#: src/handle-outgoing-file-transfer-channel-job.cpp:124
+msgid "Channel is not ready"
+msgstr "Kanaal is niet gereed"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:182
+msgid "Incoming file exists"
+msgstr "Inkomend bestand bestaat al"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:233
+msgid "Unknown Error"
+msgstr "Onbekende fout"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:251
+msgid "Would you like to resume partial download?"
+msgstr "Wilt u een gedeeltelijke download hervatten?"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:370
+#: src/handle-incoming-file-transfer-channel-job.cpp:424
+msgid "Incoming file transfer"
+msgstr "Inkomende bestandsoverdracht"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:371
+msgid "From"
+msgstr "Van"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:372
+#: src/handle-outgoing-file-transfer-channel-job.cpp:178
+msgid "Filename"
+msgstr "Bestandsnaam"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:389
+msgid "Impossible to resume file transfer. Restarting."
+msgstr "De bestandsoverdracht hervatten is onmogelijk. Opnieuw opstarten."
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:411
+#: src/handle-outgoing-file-transfer-channel-job.cpp:224
+msgid "An unknown error occurred"
+msgstr "Er deed zich een onbekende fout voor"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:431
+msgid "Incoming file transfer was canceled."
+msgstr "Inkomende bestandsoverdracht is geannuleerd."
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:473
+msgid "Unable to accept file"
+msgstr "Bestand accepteren lukt niet"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:486
+msgid "Cannot cancel incoming file transfer"
+msgstr "Inkomende bestandsoverdracht kan niet worden geannuleerd"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:499
+#: src/handle-outgoing-file-transfer-channel-job.cpp:308
+#, kde-format
+msgid "File transfer invalidated. %1"
+msgstr "Bestandsoverdracht ongeldig gemaakt. %1"
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:133
+msgid "URI property is missing"
+msgstr "Eigenschap van URI ontbreekt"
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:141
+msgid "This is not a local file"
+msgstr "Dit is geen lokaal bestand"
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:176
+#: src/handle-outgoing-file-transfer-channel-job.cpp:229
+msgid "Outgoing file transfer"
+msgstr "Uitgaande bestandsoverdracht"
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:177
+msgid "To"
+msgstr "Naar"
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:234
+msgid "Outgoing file transfer was canceled."
+msgstr "Uitgaande bestandsoverdracht is geannuleerd."
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:282
+msgid "Cannot provide file"
+msgstr "Kan bestand niet leveren"
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:295
+msgid "Cannot cancel outgoing file transfer"
+msgstr "Uitgaande bestandsoverdracht kan niet worden geannuleerd"
+
+#: src/filetransfer-handler.cpp:72
+msgid "File transfer handler is exiting. Cannot start job"
+msgstr ""
+"Programma voor bestandsoverdracht is bezig te stoppen. Kan taak niet starten"
+
+#: src/filetransfer-handler.cpp:88
+msgctxt "This is the download directory in user's home"
+msgid "Downloads"
+msgstr "Downloads"
+
+#: src/filetransfer-handler.cpp:101
+msgid "Cannot handle outgoing file transfer without URI"
+msgstr "Kan uitgaande bestandsoverdracht niet afhandelen zonder URI"
+
+#: src/main.cpp:34
+msgid "Telepathy File Transfer Handler"
+msgstr "Programma voor bestandsoverdracht van Telepathy"
+
+#: src/main.cpp:36
+msgid "Handles your Telepathy file transfers"
+msgstr "Doet uw bestandsoverdracht in Telepathy"
+
+#: src/main.cpp:38
+msgid ""
+"Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
+"domenichelli@gmail.com>"
+msgstr ""
+"Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
+"domenichelli@gmail.com>"
+
+#: src/main.cpp:39
+msgid "Daniele E. Domenichelli"
+msgstr "Daniele E. Domenichelli"
+
+#: src/main.cpp:40
+msgid "Developer"
+msgstr "Ontwikkelaar"
+
+#: src/main.cpp:44
+msgid "Alin M Elena"
+msgstr "Alin M Elena"
+
+#: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
+#: src/main.cpp:48
+msgid "Contributor"
+msgstr "Medewerker"
+
+#: src/main.cpp:45
+msgid "Dario Freddi"
+msgstr "Dario Freddi"
+
+#: src/main.cpp:46
+msgid "David Edmundson"
+msgstr "David Edmundson"
+
+#: src/main.cpp:47
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: src/main.cpp:48
+msgid "Martin Klapetek"
+msgstr "Martin Klapetek"
+
+#: src/main.cpp:51 rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Freek de Kruijf"
+
+#: src/main.cpp:52 rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "freekdekruijf@kde.nl"

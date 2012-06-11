@@ -1,0 +1,216 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marek Laane <bald@smail.ee>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-06-05 05:13+0200\n"
+"PO-Revision-Date: 2012-01-10 03:29+0200\n"
+"Last-Translator: Marek Laane <bald@smail.ee>\n"
+"Language-Team: Estonian <kde-et@linux.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: src/telepathy-base-job.cpp:96
+#, kde-format
+msgid "Telepathy reported an error while performing the requested operation:"
+msgid_plural ""
+"Telepathy reported %1 errors while performing the requested operation:"
+msgstr[0] "Telepathy teatas soovitud toimingu sooritamisel tõrkest:"
+msgstr[1] "Telepathy teatas soovitud toimingu sooritamisel %1 tõrkest:"
+
+#: src/telepathy-base-job.cpp:103
+#, kde-format
+msgctxt "The following format is: ' - <error name>: <error message>'"
+msgid " - %1: %2"
+msgstr " - %1: %2"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:127
+#: src/handle-outgoing-file-transfer-channel-job.cpp:115
+msgid "Invalid channel"
+msgstr "Vigane kanal"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:136
+#: src/handle-outgoing-file-transfer-channel-job.cpp:124
+msgid "Channel is not ready"
+msgstr "Kanal ei ole valmis"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:182
+msgid "Incoming file exists"
+msgstr "Sisenev fail on olemas"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:233
+msgid "Unknown Error"
+msgstr "Tundmatu tõrge"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:251
+msgid "Would you like to resume partial download?"
+msgstr "Kas jätkata osalist allalaadimist?"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:370
+#: src/handle-incoming-file-transfer-channel-job.cpp:424
+msgid "Incoming file transfer"
+msgstr "Sisenev failiülekanne"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:371
+msgid "From"
+msgstr "Kasutajalt"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:372
+#: src/handle-outgoing-file-transfer-channel-job.cpp:178
+msgid "Filename"
+msgstr "Failinimi"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:389
+msgid "Impossible to resume file transfer. Restarting."
+msgstr "Failiülekande jätkamine ei ole võimalik. Taaskäivitatakse."
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:411
+#: src/handle-outgoing-file-transfer-channel-job.cpp:224
+msgid "An unknown error occurred"
+msgstr "Tekkis tundmatu tõrge"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:431
+msgid "Incoming file transfer was canceled."
+msgstr "Sisenev failiülekanne katkestati."
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:473
+msgid "Unable to accept file"
+msgstr "Faili ei ole võimalik aktsepteerida"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:486
+msgid "Cannot cancel incoming file transfer"
+msgstr "Siseneva failiülekande katkestamine nurjus"
+
+#: src/handle-incoming-file-transfer-channel-job.cpp:499
+#: src/handle-outgoing-file-transfer-channel-job.cpp:308
+#, kde-format
+msgid "File transfer invalidated. %1"
+msgstr "Failiülekanne riknes. %1"
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:133
+msgid "URI property is missing"
+msgstr "URI omadus puudub"
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:141
+msgid "This is not a local file"
+msgstr "See ei ole kohalik fail"
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:176
+#: src/handle-outgoing-file-transfer-channel-job.cpp:229
+msgid "Outgoing file transfer"
+msgstr "Väljuv failiülekanne"
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:177
+msgid "To"
+msgstr "Kasutajale"
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:234
+msgid "Outgoing file transfer was canceled."
+msgstr "Väljuv failiülekanne katkestati."
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:282
+msgid "Cannot provide file"
+msgstr "Faili ei ole võimalik pakkuda"
+
+#: src/handle-outgoing-file-transfer-channel-job.cpp:295
+msgid "Cannot cancel outgoing file transfer"
+msgstr "Väljuva failiülekande katkestamine nurjus"
+
+#: src/filetransfer-handler.cpp:72
+msgid "File transfer handler is exiting. Cannot start job"
+msgstr "Failiülekande käitleja lõpetas tegevuse. Töö alustamine nurjus"
+
+#: src/filetransfer-handler.cpp:88
+msgctxt "This is the download directory in user's home"
+msgid "Downloads"
+msgstr "Allalaadimised"
+
+#: src/filetransfer-handler.cpp:101
+msgid "Cannot handle outgoing file transfer without URI"
+msgstr "Väljuva failiülekande käitlemine ilma URI-ta ei ole võimalik"
+
+#: src/main.cpp:34
+msgid "Telepathy File Transfer Handler"
+msgstr "Telepathy failiedastuse käitleja"
+
+#: src/main.cpp:36
+#, fuzzy
+#| msgid "Telepathy File Transfer Handler"
+msgid "Handles your Telepathy file transfers"
+msgstr "Telepathy failiedastuse käitleja"
+
+#: src/main.cpp:38
+msgid ""
+"Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
+"domenichelli@gmail.com>"
+msgstr ""
+
+#: src/main.cpp:39
+msgid "Daniele E. Domenichelli"
+msgstr "Daniele E. Domenichelli"
+
+#: src/main.cpp:40
+msgid "Developer"
+msgstr "Arendaja"
+
+#: src/main.cpp:44
+msgid "Alin M Elena"
+msgstr ""
+
+#: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
+#: src/main.cpp:48
+msgid "Contributor"
+msgstr ""
+
+#: src/main.cpp:45
+msgid "Dario Freddi"
+msgstr ""
+
+#: src/main.cpp:46
+msgid "David Edmundson"
+msgstr ""
+
+#: src/main.cpp:47
+msgid "George Kiagiadakis"
+msgstr ""
+
+#: src/main.cpp:48
+msgid "Martin Klapetek"
+msgstr ""
+
+#: src/main.cpp:51 rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marek Laane"
+
+#: src/main.cpp:52 rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "bald@smail.ee"
+
+#, fuzzy
+#~| msgid "Persistant mode (does not exit on timeout)"
+#~ msgid "Persistent mode (do not exit on timeout)"
+#~ msgstr "Püsiv režiim (ajaületuse korral ei väljuta)"
+
+#~ msgid "Show Telepathy debugging information"
+#~ msgstr "Telepathy silumisteabe näitamine"
+
+#~ msgid "Transfer completed"
+#~ msgstr "Edastus on lõpetatud"
+
+#~ msgid "Transferred bytes"
+#~ msgstr "Edastatud baite"
+
+#~ msgid "Transfer completed."
+#~ msgstr "Ülekanne on lõpetatud."
+
+#~ msgid "Unable to set the URI"
+#~ msgstr "URI määramine nurjus"

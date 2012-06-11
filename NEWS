@@ -1,0 +1,77 @@
+kde-telepathy filetransfer-handler (2012-06-04) 0.4.0
+
+ * Bump TelepathyQt4 required version to 0.9.1 (drdanz)
+ * Fix error name (drdanz)
+ * Normalize signal/slot signatures (mck182)
+ * Set version in using CMake instead of hardcoding in main.cpp (drdanz)
+
+kde-telepathy filetransfer-handler (2012-01-25) 0.3.0
+=====================================================
+
+ * Port to new KTelepathy internal library (drf__)
+ * Port to TelepathyQt4 0.9 (drf__)
+ * Unregister jobs when killed (drdanz)
+ * Do not set error when user kills the jobs, set it on file transfer cancelled
+   instead (drdanz)
+ * Support resuming file transfer (drdanz)
+ * Non modal rename dialog (drdanz/xerdomii)
+ * Less unuseful asynchronous calls (drdanz)
+ * Update names according to the new scheme (alin)
+
+kde-telepathy filetransfer-handler (2011-11-18) 0.2.0
+=====================================================
+
+ * Do not exit if setUri fails (drdanz)
+ * Increment initial timeout time (drdanz/d_ed)
+ * Exit File Transfer Handler if DBus name is already taken (drdanz)
+ * Install DBus activated binary in libexec (drdanz)
+ * Use KTp::TelepathyHandlerApplication instead of KApplication (drdanz)
+ * Enable KDebug DBus interface for TelepathyHandlerApplication if debug is
+   enabled (drdanz)
+ * Make FileTransferJobs killable (drdanz)
+ * Show a progressbar for the file transferred (drdanz)
+ * Let the jobs register by themselves (drdanz)
+ * Add a description for the KJob (drdanz)
+ * Handle other states in incoming file transfer (drdanz)
+ * Don't use event loop for methods that don't need it (drdanz)
+ * Redirect Telepathy-Qt4 output to KDebug (drdanz)
+ * Bump TelepathyQt4 min version to 0.7.3 (drdanz)
+ * Use common submodule (drdanz)
+ * Rename DBus services, fix .client and .service files (drdanz)
+
+kde-telepathy filetransfer-handler (2011-07-27) 0.1.0
+======================================================
+
+ * Update FindTelepathyQt4.cmake and search for Tp-Qt4 >= 0.7.1 (drdanz)
+ * Better error handling (drdanz)
+ * Don't exit when the last window is closed (drdanz)
+ * Use KUrl::isLocalFile() instead of comparing scheme (drdanz)
+ * Make ft-handler a KApplication instead of a KUniqueApplication (drdanz/d_ed)
+
+kde-telepathy filetransfer-handler (2011-06-08) UNRELEASED
+===========================================================
+
+ * Add --debug and --persist command line options (drdanz)
+ * Exit after 2 seconds if no channels are received (drdanz)
+ * Show an overwrite/rename dialog on incoming file transfers if the file
+   already exists. (drdanz)
+ * Don't stop the jobs before the file transfer has actually finished (gkiagia)
+
+kde-telepathy filetransfer-handler (2011-06-06) UNRELEASED
+===========================================================
+
+First real commit 
+
+This is the KDE Telepathy file transfer handler
+
+WARNING: At the moment it just works for incoming file transfers and will
+         overwrite any file in the $HOME/Download directory which has the same
+         name as the file that you are receiving, so please ensure that you
+         don't have any valuable file there.
+
+You can modify the download directory by adding in your
+.kde/share/config/ktelepathyrc file in the section [File Transfers] the
+variable downloadDirectory
+
+[File Transfers]
+downloadDirectory=<download path>
