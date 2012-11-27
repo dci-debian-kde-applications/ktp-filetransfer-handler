@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-05 05:13+0200\n"
+"POT-Creation-Date: 2012-07-11 13:43+0200\n"
 "PO-Revision-Date: 2012-06-05 17:51+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -18,21 +18,10 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: src/telepathy-base-job.cpp:96
-#, kde-format
-msgid "Telepathy reported an error while performing the requested operation:"
-msgid_plural ""
-"Telepathy reported %1 errors while performing the requested operation:"
-msgstr[0] "Telepathy повідомлено про %1 помилку під час виконання дій:"
-msgstr[1] "Telepathy повідомлено про %1 помилки під час виконання дій:"
-msgstr[2] "Telepathy повідомлено про %1 помилок під час виконання дій:"
-msgstr[3] "Telepathy повідомлено про помилку під час виконання дій:"
-
-#: src/telepathy-base-job.cpp:103
-#, kde-format
-msgctxt "The following format is: ' - <error name>: <error message>'"
-msgid " - %1: %2"
-msgstr " — %1: %2"
+#: src/filetransfer-handler.cpp:85
+msgctxt "This is the download directory in user's home"
+msgid "Downloads"
+msgstr "Звантаження"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:127
 #: src/handle-outgoing-file-transfer-channel-job.cpp:115
@@ -126,21 +115,6 @@ msgstr "Не вдалося надати файл"
 msgid "Cannot cancel outgoing file transfer"
 msgstr "Не вдалося скасувати вихідне перенесення файла"
 
-#: src/filetransfer-handler.cpp:72
-msgid "File transfer handler is exiting. Cannot start job"
-msgstr ""
-"Інструмент обробки перенесення файла завершив роботу. Не вдалося розпочати "
-"виконання завдання."
-
-#: src/filetransfer-handler.cpp:88
-msgctxt "This is the download directory in user's home"
-msgid "Downloads"
-msgstr "Звантаження"
-
-#: src/filetransfer-handler.cpp:101
-msgid "Cannot handle outgoing file transfer without URI"
-msgstr "Обробка вихідного перенесення файла неможлива без адреси."
-
 #: src/main.cpp:34
 msgid "Telepathy File Transfer Handler"
 msgstr "Обробник передавання файлів Telepathy"
@@ -189,15 +163,39 @@ msgstr "George Kiagiadakis"
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: src/main.cpp:51 rc.cpp:1
+#: src/main.cpp:51
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Юрій Чорноіван"
 
-#: src/main.cpp:52 rc.cpp:2
+#: src/main.cpp:52
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
+
+#: src/telepathy-base-job.cpp:96
+#, kde-format
+msgid "Telepathy reported an error while performing the requested operation:"
+msgid_plural ""
+"Telepathy reported %1 errors while performing the requested operation:"
+msgstr[0] "Telepathy повідомлено про %1 помилку під час виконання дій:"
+msgstr[1] "Telepathy повідомлено про %1 помилки під час виконання дій:"
+msgstr[2] "Telepathy повідомлено про %1 помилок під час виконання дій:"
+msgstr[3] "Telepathy повідомлено про помилку під час виконання дій:"
+
+#: src/telepathy-base-job.cpp:103
+#, kde-format
+msgctxt "The following format is: ' - <error name>: <error message>'"
+msgid " - %1: %2"
+msgstr " — %1: %2"
+
+#~ msgid "File transfer handler is exiting. Cannot start job"
+#~ msgstr ""
+#~ "Інструмент обробки перенесення файла завершив роботу. Не вдалося "
+#~ "розпочати виконання завдання."
+
+#~ msgid "Cannot handle outgoing file transfer without URI"
+#~ msgstr "Обробка вихідного перенесення файла неможлива без адреси."
 
 #~ msgid "Persistent mode (do not exit on timeout)"
 #~ msgstr "Сталий режим (не виходити у разі перевищення часу очікування)"

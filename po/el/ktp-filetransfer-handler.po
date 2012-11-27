@@ -3,37 +3,26 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Stelios <sstavra@gmail.com>, 2012.
+# Petros Vidalis <pvidalis@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-05 05:13+0200\n"
-"PO-Revision-Date: 2012-04-05 19:52+0200\n"
-"Last-Translator: Stelios <sstavra@gmail.com>\n"
-"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"POT-Creation-Date: 2012-07-11 13:43+0200\n"
+"PO-Revision-Date: 2012-09-27 14:32+0300\n"
+"Last-Translator: Petros Vidalis <pvidalis@gmail.com>\n"
+"Language-Team: Greek <i18ngr@lists.hellug.gr>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.4\n"
 
-#: src/telepathy-base-job.cpp:96
-#, kde-format
-msgid "Telepathy reported an error while performing the requested operation:"
-msgid_plural ""
-"Telepathy reported %1 errors while performing the requested operation:"
-msgstr[0] ""
-"Το telepathy έκανε αναφορά σφάλματος καθώς εκτελούσε την απαιτούμενη "
-"λειτουργία:"
-msgstr[1] ""
-"Το telepathy έκανε αναφορά %1 σφαλμάτων καθώς εκτελούσε την απαιτούμενη "
-"λειτουργία:"
-
-#: src/telepathy-base-job.cpp:103
-#, kde-format
-msgctxt "The following format is: ' - <error name>: <error message>'"
-msgid " - %1: %2"
-msgstr " - %1: %2"
+#: src/filetransfer-handler.cpp:85
+msgctxt "This is the download directory in user's home"
+msgid "Downloads"
+msgstr "Λήψεις"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:127
 #: src/handle-outgoing-file-transfer-channel-job.cpp:115
@@ -127,36 +116,21 @@ msgstr "Αδυναμία παροχής αρχείου"
 msgid "Cannot cancel outgoing file transfer"
 msgstr "Αδυναμία ακύρωσης μεταφοράς εξερχόμενου αρχείου"
 
-#: src/filetransfer-handler.cpp:72
-msgid "File transfer handler is exiting. Cannot start job"
-msgstr ""
-"Το πρόγραμμα χειρισμού μεταφοράς αρχείων τερματίζεται. Αδυναμία έναρξης "
-"εργασίας"
-
-#: src/filetransfer-handler.cpp:88
-msgctxt "This is the download directory in user's home"
-msgid "Downloads"
-msgstr "Downloads"
-
-#: src/filetransfer-handler.cpp:101
-msgid "Cannot handle outgoing file transfer without URI"
-msgstr "Αδυναμία χειρισμού μεταφοράς εξερχόμενου αρχείου χωρίς URI"
-
 #: src/main.cpp:34
 msgid "Telepathy File Transfer Handler"
 msgstr "Telepathy πρόγραμμα χειρισμού μεταφοράς αρχείων"
 
 #: src/main.cpp:36
-#, fuzzy
-#| msgid "Telepathy File Transfer Handler"
 msgid "Handles your Telepathy file transfers"
-msgstr "Telepathy πρόγραμμα χειρισμού μεταφοράς αρχείων"
+msgstr "Διαχειρίζεται τις μεταφορές αρχείων του Telepathy "
 
 #: src/main.cpp:38
 msgid ""
 "Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
 "domenichelli@gmail.com>"
 msgstr ""
+"Πνευματικά δικαιώματα (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
+"domenichelli@gmail.com>"
 
 #: src/main.cpp:39
 msgid "Daniele E. Domenichelli"
@@ -168,35 +142,61 @@ msgstr "Προγραμματιστής"
 
 #: src/main.cpp:44
 msgid "Alin M Elena"
-msgstr ""
+msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
 #: src/main.cpp:48
 msgid "Contributor"
-msgstr ""
+msgstr "Συντελεστής"
 
 #: src/main.cpp:45
 msgid "Dario Freddi"
-msgstr ""
+msgstr "Dario Freddi"
 
 #: src/main.cpp:46
 msgid "David Edmundson"
-msgstr ""
+msgstr "David Edmundson"
 
 #: src/main.cpp:47
 msgid "George Kiagiadakis"
-msgstr ""
+msgstr "Γιώργος Καγιαδάκης"
 
 #: src/main.cpp:48
 msgid "Martin Klapetek"
-msgstr ""
+msgstr "Martin Klapetek"
 
-#: src/main.cpp:51 rc.cpp:1
+#: src/main.cpp:51
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Stelios"
 
-#: src/main.cpp:52 rc.cpp:2
+#: src/main.cpp:52
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sstavra@gmail.com"
+
+#: src/telepathy-base-job.cpp:96
+#, kde-format
+msgid "Telepathy reported an error while performing the requested operation:"
+msgid_plural ""
+"Telepathy reported %1 errors while performing the requested operation:"
+msgstr[0] ""
+"Το telepathy έκανε αναφορά σφάλματος καθώς εκτελούσε την απαιτούμενη "
+"λειτουργία:"
+msgstr[1] ""
+"Το telepathy έκανε αναφορά %1 σφαλμάτων καθώς εκτελούσε την απαιτούμενη "
+"λειτουργία:"
+
+#: src/telepathy-base-job.cpp:103
+#, kde-format
+msgctxt "The following format is: ' - <error name>: <error message>'"
+msgid " - %1: %2"
+msgstr " - %1: %2"
+
+#~ msgid "File transfer handler is exiting. Cannot start job"
+#~ msgstr ""
+#~ "Το πρόγραμμα χειρισμού μεταφοράς αρχείων τερματίζεται. Αδυναμία έναρξης "
+#~ "εργασίας"
+
+#~ msgid "Cannot handle outgoing file transfer without URI"
+#~ msgstr "Αδυναμία χειρισμού μεταφοράς εξερχόμενου αρχείου χωρίς URI"
