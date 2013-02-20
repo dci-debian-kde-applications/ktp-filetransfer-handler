@@ -1,8 +1,10 @@
-ktp-filetransfer-handler (0.5.1-1) UNRELEASED; urgency=low
+ktp-filetransfer-handler (0.5.3-1) UNRELEASED; urgency=low
 
   * [e05a38b] Imported Upstream version 0.5.1
+  * [e7b575d] Imported Upstream version 0.5.3
+  * [de228e8] bump version dependencies
 
- -- Ritesh Raj Sarraf <rrs@debian.org>  Wed, 28 Nov 2012 23:44:39 +0530
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Wed, 20 Feb 2013 23:59:01 +0530
 
 ktp-filetransfer-handler (0.4.0-1) unstable; urgency=low
 
