@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-11 13:43+0200\n"
-"PO-Revision-Date: 2012-08-05 23:58+0300\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
+"PO-Revision-Date: 2012-10-28 14:23+0200\n"
 "Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -39,50 +39,50 @@ msgstr "Kanalas nepasiruošęs"
 msgid "Incoming file exists"
 msgstr "Yra atsiunčiamas failas"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:233
+#: src/handle-incoming-file-transfer-channel-job.cpp:240
 msgid "Unknown Error"
 msgstr "Nežinoma klaida"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:251
+#: src/handle-incoming-file-transfer-channel-job.cpp:258
 msgid "Would you like to resume partial download?"
 msgstr "Ar norite tęsti dalinį atsiuntimą?"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:370
-#: src/handle-incoming-file-transfer-channel-job.cpp:424
+#: src/handle-incoming-file-transfer-channel-job.cpp:377
+#: src/handle-incoming-file-transfer-channel-job.cpp:431
 msgid "Incoming file transfer"
 msgstr "Įeinančio failo perdavimas"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:371
+#: src/handle-incoming-file-transfer-channel-job.cpp:378
 msgid "From"
 msgstr "Iš"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:372
+#: src/handle-incoming-file-transfer-channel-job.cpp:379
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
 msgstr "Failo pavadinimas"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:389
+#: src/handle-incoming-file-transfer-channel-job.cpp:396
 msgid "Impossible to resume file transfer. Restarting."
 msgstr "Nepavyksta pratęsti failo siuntimo. Paleidžiamas iš naujo."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:411
+#: src/handle-incoming-file-transfer-channel-job.cpp:418
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
 msgstr "Įvyko nežinoma klaida"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:431
+#: src/handle-incoming-file-transfer-channel-job.cpp:438
 msgid "Incoming file transfer was canceled."
 msgstr "Įeinančio failo perdavimas buvo atšauktas."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:473
+#: src/handle-incoming-file-transfer-channel-job.cpp:475
 msgid "Unable to accept file"
 msgstr "Nepavyko priimti failo"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:486
+#: src/handle-incoming-file-transfer-channel-job.cpp:488
 msgid "Cannot cancel incoming file transfer"
 msgstr "Nepavyksta atšaukti įeinančio failo persiuntimo"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:499
+#: src/handle-incoming-file-transfer-channel-job.cpp:501
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, kde-format
 msgid "File transfer invalidated. %1"
@@ -119,11 +119,11 @@ msgstr "Nepavyksta atšaukti išeinančio failo persiuntimo"
 
 #: src/main.cpp:34
 msgid "Telepathy File Transfer Handler"
-msgstr "Telepatijos failo perdavimo valdymo programa"
+msgstr "Telepathy failo perdavimo valdymo programa"
 
 #: src/main.cpp:36
 msgid "Handles your Telepathy file transfers"
-msgstr "Valdo Jūsų Telepatijos failo perdavimus"
+msgstr "Valdo Jūsų Telepathy failų perdavimus"
 
 #: src/main.cpp:38
 msgid ""
@@ -181,10 +181,10 @@ msgstr "liudas@akmc.lt"
 msgid "Telepathy reported an error while performing the requested operation:"
 msgid_plural ""
 "Telepathy reported %1 errors while performing the requested operation:"
-msgstr[0] "Telepatija grąžino klaidą vykdant nurodytą operaciją:"
-msgstr[1] "Telepatija grąžino %1 klaidas vykdant nurodytą operaciją:"
-msgstr[2] "Telepatija grąžino %1 klaidų vykdant nurodytą operaciją:"
-msgstr[3] "Telepatija grąžino %1 klaidą vykdant nurodytą operaciją:"
+msgstr[0] "Telepathy grąžino klaidą vykdant nurodytą operaciją:"
+msgstr[1] "Telepathy grąžino %1 klaidas vykdant nurodytą operaciją:"
+msgstr[2] "Telepathy grąžino %1 klaidų vykdant nurodytą operaciją:"
+msgstr[3] "Telepathy grąžino %1 klaidą vykdant nurodytą operaciją:"
 
 #: src/telepathy-base-job.cpp:103
 #, kde-format

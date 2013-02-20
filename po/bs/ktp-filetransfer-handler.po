@@ -1,132 +1,137 @@
-# Irish translation of ktp-filetransfer-handler
-# Copyright (C) 2011 This_file_is_part_of_KDE
-# This file is distributed under the same license as the ktp-filetransfer-handler package.
-# Kevin Scannell <kscanne@gmail.com>, 2011.
+# Bosnian translation for bosnianuniversetranslation
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the bosnianuniversetranslation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: ktp-filetransfer-handler\n"
+"Project-Id-Version: bosnianuniversetranslation\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-02-15 10:31+0100\n"
-"PO-Revision-Date: 2011-12-28 12:28-0500\n"
-"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
-"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
-"Language: \n"
+"PO-Revision-Date: 2013-01-26 14:14+0000\n"
+"Last-Translator: Samir Ribić <Unknown>\n"
+"Language-Team: Bosnian <bs@li.org>\n"
+"Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
-"3 : 4\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2013-01-26 22:17+0000\n"
+"X-Generator: Launchpad (build 16451)\n"
 
 #: src/filetransfer-handler.cpp:85
 msgctxt "This is the download directory in user's home"
 msgid "Downloads"
-msgstr ""
+msgstr "Preuzimanja"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:127
 #: src/handle-outgoing-file-transfer-channel-job.cpp:115
 msgid "Invalid channel"
-msgstr ""
+msgstr "Pogrešan kanal"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:136
 #: src/handle-outgoing-file-transfer-channel-job.cpp:124
 msgid "Channel is not ready"
-msgstr ""
+msgstr "Kanal nije preman"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:182
 msgid "Incoming file exists"
-msgstr ""
+msgstr "Postoji dolazna datoteka"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:240
 msgid "Unknown Error"
-msgstr "Earráid Anaithnid"
+msgstr "Nepoznata greška"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:258
 msgid "Would you like to resume partial download?"
-msgstr ""
+msgstr "Želite li nastaviti parcijalno preuzimanj e"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:377
 #: src/handle-incoming-file-transfer-channel-job.cpp:431
 msgid "Incoming file transfer"
-msgstr ""
+msgstr "Prijenos dolazne datoteke"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:378
 msgid "From"
-msgstr "Ó"
+msgstr "Iz"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:379
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
-msgstr "Ainm comhaid"
+msgstr "Ime datoteke:"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:396
 msgid "Impossible to resume file transfer. Restarting."
-msgstr ""
+msgstr "Nemoguće nastaviti prijenos datoteke. Restartujem"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:418
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
-msgstr "Tharla earráid anaithnid"
+msgstr "Došlo je do nepoznate greške"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:438
 msgid "Incoming file transfer was canceled."
-msgstr ""
+msgstr "Prijenos dolazne datoteke je otkazan."
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:475
 msgid "Unable to accept file"
-msgstr ""
+msgstr "Ne mogu prihvatiti datoteku"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:488
 msgid "Cannot cancel incoming file transfer"
-msgstr ""
+msgstr "Ne mogu otkazati prijenos dolazne datoteke"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:501
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, kde-format
 msgid "File transfer invalidated. %1"
-msgstr ""
+msgstr "Prijenos datoteke proglašen nevažećime. %1"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:133
 msgid "URI property is missing"
-msgstr ""
+msgstr "URI svojstvo nedostaje"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:141
 msgid "This is not a local file"
-msgstr ""
+msgstr "Ovo nijelokalna datoteka"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:176
 #: src/handle-outgoing-file-transfer-channel-job.cpp:229
 msgid "Outgoing file transfer"
-msgstr ""
+msgstr "Prijenos izlazne datoteke"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:177
 msgid "To"
-msgstr "Go"
+msgstr "Za"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:234
 msgid "Outgoing file transfer was canceled."
-msgstr ""
+msgstr "Prijenos izlazne datoteke je otkazan"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:282
 msgid "Cannot provide file"
-msgstr ""
+msgstr "Ne može se navesti datoteka"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:295
 msgid "Cannot cancel outgoing file transfer"
-msgstr ""
+msgstr "Ne može se otkazati prijenos izlazne datoteke"
 
 #: src/main.cpp:34
 msgid "Telepathy File Transfer Handler"
-msgstr ""
+msgstr "Upravljanje prijenosom Telepathy datoteke"
 
 #: src/main.cpp:36
 msgid "Handles your Telepathy file transfers"
-msgstr ""
+msgstr "Upravljanje prijenosom Telepathy datoteka"
 
 #: src/main.cpp:38
 msgid ""
 "Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
 "domenichelli@gmail.com>"
 msgstr ""
+"Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
+"domenichelli@gmail.com>"
 
 #: src/main.cpp:39
 msgid "Daniele E. Domenichelli"
@@ -134,16 +139,16 @@ msgstr "Daniele E. Domenichelli"
 
 #: src/main.cpp:40
 msgid "Developer"
-msgstr "Forbróir"
+msgstr "Programer"
 
 #: src/main.cpp:44
 msgid "Alin M Elena"
-msgstr ""
+msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
 #: src/main.cpp:48
 msgid "Contributor"
-msgstr "Cuiditheoir"
+msgstr "Doprinosilac"
 
 #: src/main.cpp:45
 msgid "Dario Freddi"
@@ -164,20 +169,21 @@ msgstr "Martin Klapetek"
 #: src/main.cpp:51
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Kevin Scannell"
+msgstr "Samir Ribić"
 
 #: src/main.cpp:52
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kscanne@gmail.com"
+msgstr "samir.ribic@etf.unsa.ba"
 
 #: src/telepathy-base-job.cpp:96
 #, kde-format
 msgid "Telepathy reported an error while performing the requested operation:"
 msgid_plural ""
 "Telepathy reported %1 errors while performing the requested operation:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Telepathy prijavio %1 grešku pri obavljanju tražene operacije"
+msgstr[1] "Telepathy prijavio %1 greške pri obavljanju tražene operacije"
+msgstr[2] "Telepathy prijavio %1 grešaka pri obavljanju tražene operacije"
 
 #: src/telepathy-base-job.cpp:103
 #, kde-format
