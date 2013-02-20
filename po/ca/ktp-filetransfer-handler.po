@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktp-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-11 13:43+0200\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
 "PO-Revision-Date: 2012-06-15 17:10+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -39,50 +39,50 @@ msgstr "El canal no està preparat"
 msgid "Incoming file exists"
 msgstr "El fitxer entrant ja existeix"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:233
+#: src/handle-incoming-file-transfer-channel-job.cpp:240
 msgid "Unknown Error"
 msgstr "Error desconegut"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:251
+#: src/handle-incoming-file-transfer-channel-job.cpp:258
 msgid "Would you like to resume partial download?"
 msgstr "Voleu reprendre la baixada parcial?"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:370
-#: src/handle-incoming-file-transfer-channel-job.cpp:424
+#: src/handle-incoming-file-transfer-channel-job.cpp:377
+#: src/handle-incoming-file-transfer-channel-job.cpp:431
 msgid "Incoming file transfer"
 msgstr "Transferència de fitxer entrant"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:371
+#: src/handle-incoming-file-transfer-channel-job.cpp:378
 msgid "From"
 msgstr "Des de"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:372
+#: src/handle-incoming-file-transfer-channel-job.cpp:379
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
 msgstr "Nom de fitxer"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:389
+#: src/handle-incoming-file-transfer-channel-job.cpp:396
 msgid "Impossible to resume file transfer. Restarting."
 msgstr "No es pot reprendre la transferència de fitxer. Es torna a iniciar."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:411
+#: src/handle-incoming-file-transfer-channel-job.cpp:418
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
 msgstr "S'ha produït un error desconegut"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:431
+#: src/handle-incoming-file-transfer-channel-job.cpp:438
 msgid "Incoming file transfer was canceled."
 msgstr "S'ha cancel·lat la transferència de fitxer entrant."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:473
+#: src/handle-incoming-file-transfer-channel-job.cpp:475
 msgid "Unable to accept file"
 msgstr "No es pot acceptar el fitxer"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:486
+#: src/handle-incoming-file-transfer-channel-job.cpp:488
 msgid "Cannot cancel incoming file transfer"
 msgstr "No s'ha pogut cancel·lar la transferència de fitxer entrant"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:499
+#: src/handle-incoming-file-transfer-channel-job.cpp:501
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, kde-format
 msgid "File transfer invalidated. %1"

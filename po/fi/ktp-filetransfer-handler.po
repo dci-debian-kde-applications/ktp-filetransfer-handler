@@ -1,17 +1,17 @@
 # Copyright © 2012 This_file_is_part_of_KDE
 # This file is distributed under the same license as the ktp-filetransfer-handler package.
 # Tommi Nieminen <translator@legisign.org>, 2012.
-# Lasse Liehu <lasse.liehu@gmail.com>, 2012.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2012, 2013.
 #
-# KDE 4.9 Finnish translation sprint 2012-06/07
+# KDE Finnish translation sprint participants:
 # Author: Artnay
 # Author: Lliehu
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-11 13:43+0200\n"
-"PO-Revision-Date: 2012-09-26 15:22+0300\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
+"PO-Revision-Date: 2013-01-27 18:28+0200\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
 "Language: fi\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-POT-Import-Date: 2012-07-19 17:20:43+0000\n"
+"X-POT-Import-Date: 2012-12-01 22:21:13+0000\n"
 "X-Generator: Lokalize 1.5\n"
 
 #: src/filetransfer-handler.cpp:85
@@ -41,54 +41,54 @@ msgstr "Kanava ei ole valmis"
 msgid "Incoming file exists"
 msgstr "Saapuva tiedosto on jo olemassa"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:233
+#: src/handle-incoming-file-transfer-channel-job.cpp:240
 msgid "Unknown Error"
 msgstr "Tuntematon virhe"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:251
+#: src/handle-incoming-file-transfer-channel-job.cpp:258
 msgid "Would you like to resume partial download?"
 msgstr "Haluatko jatkaa osittaista latausta?"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:370
-#: src/handle-incoming-file-transfer-channel-job.cpp:424
+#: src/handle-incoming-file-transfer-channel-job.cpp:377
+#: src/handle-incoming-file-transfer-channel-job.cpp:431
 msgid "Incoming file transfer"
 msgstr "Saapuva tiedostonsiirto"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:371
+#: src/handle-incoming-file-transfer-channel-job.cpp:378
 msgid "From"
 msgstr "Käyttäjältä"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:372
+#: src/handle-incoming-file-transfer-channel-job.cpp:379
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
 msgstr "Tiedostonimi"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:389
+#: src/handle-incoming-file-transfer-channel-job.cpp:396
 msgid "Impossible to resume file transfer. Restarting."
 msgstr "Tiedostonsiirtoa on mahdotonta jatkaa. Käynnistetään uudestaan."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:411
+#: src/handle-incoming-file-transfer-channel-job.cpp:418
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
 msgstr "Sattui tuntematon virhe"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:431
+#: src/handle-incoming-file-transfer-channel-job.cpp:438
 msgid "Incoming file transfer was canceled."
 msgstr "Saapuva tiedostonsiirto peruttiin."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:473
+#: src/handle-incoming-file-transfer-channel-job.cpp:475
 msgid "Unable to accept file"
 msgstr "Tiedostoa ei voida hyväksyä"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:486
+#: src/handle-incoming-file-transfer-channel-job.cpp:488
 msgid "Cannot cancel incoming file transfer"
 msgstr "Saapuvaa tiedostonsiirtoa ei voi perua"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:499
+#: src/handle-incoming-file-transfer-channel-job.cpp:501
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, kde-format
 msgid "File transfer invalidated. %1"
-msgstr ""
+msgstr "Tiedostonsiirto on mitätöity. %1"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:133
 msgid "URI property is missing"
@@ -183,8 +183,8 @@ msgstr "translator@legisign.org"
 msgid "Telepathy reported an error while performing the requested operation:"
 msgid_plural ""
 "Telepathy reported %1 errors while performing the requested operation:"
-msgstr[0] "Telepathy raportoi virheestä suorittaessaan pyydettyä toimintoa:"
-msgstr[1] "Telepathy raportoi %1 virheestä suorittaessaan pyydettyä toimintoa:"
+msgstr[0] "Telepathy ilmoitti virheestä suorittaessaan pyydettyä toimintoa:"
+msgstr[1] "Telepathy ilmoitti %1 virheestä suorittaessaan pyydettyä toimintoa:"
 
 #: src/telepathy-base-job.cpp:103
 #, kde-format

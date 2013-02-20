@@ -1,26 +1,30 @@
-# Irish translation of ktp-filetransfer-handler
-# Copyright (C) 2011 This_file_is_part_of_KDE
-# This file is distributed under the same license as the ktp-filetransfer-handler package.
-# Kevin Scannell <kscanne@gmail.com>, 2011.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Yuri Efremov <yur.arh@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: ktp-filetransfer-handler\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-02-15 10:31+0100\n"
-"PO-Revision-Date: 2011-12-28 12:28-0500\n"
-"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
-"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
-"Language: \n"
+"PO-Revision-Date: 2012-08-09 13:26+0400\n"
+"Last-Translator: Yuri Efremov <yur.arh@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
-"3 : 4\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
 
 #: src/filetransfer-handler.cpp:85
 msgctxt "This is the download directory in user's home"
 msgid "Downloads"
-msgstr ""
+msgstr "Загрузки"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:127
 #: src/handle-outgoing-file-transfer-channel-job.cpp:115
@@ -38,7 +42,7 @@ msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:240
 msgid "Unknown Error"
-msgstr "Earráid Anaithnid"
+msgstr "Неизвестная ошибка"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:258
 msgid "Would you like to resume partial download?"
@@ -51,12 +55,12 @@ msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:378
 msgid "From"
-msgstr "Ó"
+msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:379
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
-msgstr "Ainm comhaid"
+msgstr "Имя файла"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:396
 msgid "Impossible to resume file transfer. Restarting."
@@ -65,7 +69,7 @@ msgstr ""
 #: src/handle-incoming-file-transfer-channel-job.cpp:418
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
-msgstr "Tharla earráid anaithnid"
+msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:438
 msgid "Incoming file transfer was canceled."
@@ -100,7 +104,7 @@ msgstr ""
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:177
 msgid "To"
-msgstr "Go"
+msgstr ""
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:234
 msgid "Outgoing file transfer was canceled."
@@ -134,16 +138,16 @@ msgstr "Daniele E. Domenichelli"
 
 #: src/main.cpp:40
 msgid "Developer"
-msgstr "Forbróir"
+msgstr "Разработчик"
 
 #: src/main.cpp:44
 msgid "Alin M Elena"
-msgstr ""
+msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
 #: src/main.cpp:48
 msgid "Contributor"
-msgstr "Cuiditheoir"
+msgstr "Участник проекта"
 
 #: src/main.cpp:45
 msgid "Dario Freddi"
@@ -164,12 +168,12 @@ msgstr "Martin Klapetek"
 #: src/main.cpp:51
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Kevin Scannell"
+msgstr "Юрий Ефремов"
 
 #: src/main.cpp:52
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kscanne@gmail.com"
+msgstr "yur.arh@gmail.com"
 
 #: src/telepathy-base-job.cpp:96
 #, kde-format
@@ -178,9 +182,11 @@ msgid_plural ""
 "Telepathy reported %1 errors while performing the requested operation:"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/telepathy-base-job.cpp:103
 #, kde-format
 msgctxt "The following format is: ' - <error name>: <error message>'"
 msgid " - %1: %2"
-msgstr " - %1: %2"
+msgstr ""

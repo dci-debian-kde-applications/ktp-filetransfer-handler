@@ -2,20 +2,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Ni Hui <shuizhuyuanluo@126.com>, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-11 13:43+0200\n"
-"PO-Revision-Date: 2012-01-22 14:51+0800\n"
-"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
+"PO-Revision-Date: 2013-01-12 11:43-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-china@kde.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: src/filetransfer-handler.cpp:85
 msgctxt "This is the download directory in user's home"
@@ -25,108 +26,110 @@ msgstr "下载"
 #: src/handle-incoming-file-transfer-channel-job.cpp:127
 #: src/handle-outgoing-file-transfer-channel-job.cpp:115
 msgid "Invalid channel"
-msgstr ""
+msgstr "无效的频道"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:136
 #: src/handle-outgoing-file-transfer-channel-job.cpp:124
 msgid "Channel is not ready"
-msgstr ""
+msgstr "频道未准备好"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:182
 msgid "Incoming file exists"
 msgstr "传入文件已存在"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:233
+#: src/handle-incoming-file-transfer-channel-job.cpp:240
 msgid "Unknown Error"
 msgstr "未知错误"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:251
+#: src/handle-incoming-file-transfer-channel-job.cpp:258
 msgid "Would you like to resume partial download?"
-msgstr ""
+msgstr "您是否想恢复之前的传输？"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:370
-#: src/handle-incoming-file-transfer-channel-job.cpp:424
+#: src/handle-incoming-file-transfer-channel-job.cpp:377
+#: src/handle-incoming-file-transfer-channel-job.cpp:431
 msgid "Incoming file transfer"
 msgstr "收到文件传输"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:371
+#: src/handle-incoming-file-transfer-channel-job.cpp:378
 msgid "From"
-msgstr ""
+msgstr "来自"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:372
+#: src/handle-incoming-file-transfer-channel-job.cpp:379
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
 msgstr "文件名"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:389
+#: src/handle-incoming-file-transfer-channel-job.cpp:396
 msgid "Impossible to resume file transfer. Restarting."
-msgstr ""
+msgstr "无法继续文件传输。正在重新开始。"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:411
+#: src/handle-incoming-file-transfer-channel-job.cpp:418
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
-msgstr ""
+msgstr "发生了未知错误"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:431
+#: src/handle-incoming-file-transfer-channel-job.cpp:438
 msgid "Incoming file transfer was canceled."
-msgstr ""
+msgstr "接收文件传输已被取消。"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:473
+#: src/handle-incoming-file-transfer-channel-job.cpp:475
 msgid "Unable to accept file"
-msgstr ""
+msgstr "无法接受文件"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:486
+#: src/handle-incoming-file-transfer-channel-job.cpp:488
 msgid "Cannot cancel incoming file transfer"
-msgstr ""
+msgstr "无法取消接收文件传输"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:499
+#: src/handle-incoming-file-transfer-channel-job.cpp:501
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, kde-format
 msgid "File transfer invalidated. %1"
-msgstr ""
+msgstr "文件传输无效。%1"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:133
 msgid "URI property is missing"
-msgstr ""
+msgstr "URI 属性缺失"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:141
 msgid "This is not a local file"
-msgstr ""
+msgstr "这不是本地的文件。"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:176
 #: src/handle-outgoing-file-transfer-channel-job.cpp:229
 msgid "Outgoing file transfer"
-msgstr ""
+msgstr "发送文件传输"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:177
 msgid "To"
-msgstr ""
+msgstr "目标"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:234
 msgid "Outgoing file transfer was canceled."
-msgstr ""
+msgstr "发送文件传输被取消。"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:282
 msgid "Cannot provide file"
-msgstr ""
+msgstr "无法提供文件"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:295
 msgid "Cannot cancel outgoing file transfer"
-msgstr ""
+msgstr "无法取消发送文件传输。"
 
 #: src/main.cpp:34
 msgid "Telepathy File Transfer Handler"
-msgstr ""
+msgstr "Telapathy 文件传输处理器"
 
 #: src/main.cpp:36
 msgid "Handles your Telepathy file transfers"
-msgstr ""
+msgstr "处理您的 Telepathy 文件传输"
 
 #: src/main.cpp:38
 msgid ""
 "Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
 "domenichelli@gmail.com>"
 msgstr ""
+"Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
+"domenichelli@gmail.com>"
 
 #: src/main.cpp:39
 msgid "Daniele E. Domenichelli"
@@ -138,28 +141,28 @@ msgstr "开发者"
 
 #: src/main.cpp:44
 msgid "Alin M Elena"
-msgstr ""
+msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
 #: src/main.cpp:48
 msgid "Contributor"
-msgstr ""
+msgstr "贡献者"
 
 #: src/main.cpp:45
 msgid "Dario Freddi"
-msgstr ""
+msgstr "Dario Freddi"
 
 #: src/main.cpp:46
 msgid "David Edmundson"
-msgstr ""
+msgstr "David Edmundson"
 
 #: src/main.cpp:47
 msgid "George Kiagiadakis"
-msgstr ""
+msgstr "George Kiagiadakis"
 
 #: src/main.cpp:48
 msgid "Martin Klapetek"
-msgstr ""
+msgstr "Martin Klapetek"
 
 #: src/main.cpp:51
 msgctxt "NAME OF TRANSLATORS"
@@ -176,11 +179,10 @@ msgstr "kde-china@kde.org"
 msgid "Telepathy reported an error while performing the requested operation:"
 msgid_plural ""
 "Telepathy reported %1 errors while performing the requested operation:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Telepathy 汇报了在执行请求操作中的 %1 条错误："
 
 #: src/telepathy-base-job.cpp:103
 #, kde-format
 msgctxt "The following format is: ' - <error name>: <error message>'"
 msgid " - %1: %2"
-msgstr ""
+msgstr " - %1: %2"

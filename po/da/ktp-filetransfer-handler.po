@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-11 13:43+0200\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
 "PO-Revision-Date: 2012-06-16 10:19+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -36,50 +36,50 @@ msgstr "Kanalen er ikke klar"
 msgid "Incoming file exists"
 msgstr "Den indkommende fil findes allerede"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:233
+#: src/handle-incoming-file-transfer-channel-job.cpp:240
 msgid "Unknown Error"
 msgstr "Ukendt fejl"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:251
+#: src/handle-incoming-file-transfer-channel-job.cpp:258
 msgid "Would you like to resume partial download?"
 msgstr "Vil du gerne genoptage et delvist download?"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:370
-#: src/handle-incoming-file-transfer-channel-job.cpp:424
+#: src/handle-incoming-file-transfer-channel-job.cpp:377
+#: src/handle-incoming-file-transfer-channel-job.cpp:431
 msgid "Incoming file transfer"
 msgstr "Indkommende filoverførsel"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:371
+#: src/handle-incoming-file-transfer-channel-job.cpp:378
 msgid "From"
 msgstr "Fra"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:372
+#: src/handle-incoming-file-transfer-channel-job.cpp:379
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
 msgstr "Filnavn"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:389
+#: src/handle-incoming-file-transfer-channel-job.cpp:396
 msgid "Impossible to resume file transfer. Restarting."
 msgstr "Umuligt at genoptage filoverførsel. Starter forfra."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:411
+#: src/handle-incoming-file-transfer-channel-job.cpp:418
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
 msgstr "En ukendt fejl opstod"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:431
+#: src/handle-incoming-file-transfer-channel-job.cpp:438
 msgid "Incoming file transfer was canceled."
 msgstr "Indkommende filoverførsel annulleret."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:473
+#: src/handle-incoming-file-transfer-channel-job.cpp:475
 msgid "Unable to accept file"
 msgstr "Kan ikke godkende fil"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:486
+#: src/handle-incoming-file-transfer-channel-job.cpp:488
 msgid "Cannot cancel incoming file transfer"
 msgstr "Kan ikke annullere indkommende filoverførsel"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:499
+#: src/handle-incoming-file-transfer-channel-job.cpp:501
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, kde-format
 msgid "File transfer invalidated. %1"

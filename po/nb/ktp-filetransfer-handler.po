@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-11 13:43+0200\n"
-"PO-Revision-Date: 2012-02-13 21:27+0100\n"
+"POT-Creation-Date: 2013-02-15 10:31+0100\n"
+"PO-Revision-Date: 2012-11-22 19:15+0100\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.4\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -38,50 +38,50 @@ msgstr "Kanalen er ikke klar"
 msgid "Incoming file exists"
 msgstr "Innkommende fil finnes fra før"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:233
+#: src/handle-incoming-file-transfer-channel-job.cpp:240
 msgid "Unknown Error"
 msgstr "Ukjent feil"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:251
+#: src/handle-incoming-file-transfer-channel-job.cpp:258
 msgid "Would you like to resume partial download?"
 msgstr "Vil du gjenoppta delvis nedlasting?"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:370
-#: src/handle-incoming-file-transfer-channel-job.cpp:424
+#: src/handle-incoming-file-transfer-channel-job.cpp:377
+#: src/handle-incoming-file-transfer-channel-job.cpp:431
 msgid "Incoming file transfer"
 msgstr "Innkommende filoverføring"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:371
+#: src/handle-incoming-file-transfer-channel-job.cpp:378
 msgid "From"
 msgstr "Fra"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:372
+#: src/handle-incoming-file-transfer-channel-job.cpp:379
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
 msgstr "Filnavn"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:389
+#: src/handle-incoming-file-transfer-channel-job.cpp:396
 msgid "Impossible to resume file transfer. Restarting."
 msgstr "Umulig å gjenoppta filoverføring. Starter på nytt."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:411
+#: src/handle-incoming-file-transfer-channel-job.cpp:418
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
 msgstr "En ukjent feil oppsto"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:431
+#: src/handle-incoming-file-transfer-channel-job.cpp:438
 msgid "Incoming file transfer was canceled."
 msgstr "Innkommende filoverføring ble avbrutt."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:473
+#: src/handle-incoming-file-transfer-channel-job.cpp:475
 msgid "Unable to accept file"
 msgstr "Klarer ikke ta i mot fil"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:486
+#: src/handle-incoming-file-transfer-channel-job.cpp:488
 msgid "Cannot cancel incoming file transfer"
 msgstr "Kan ikke avbryte innkommende filoverføring"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:499
+#: src/handle-incoming-file-transfer-channel-job.cpp:501
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, kde-format
 msgid "File transfer invalidated. %1"
@@ -122,13 +122,15 @@ msgstr "Telepathy filoverføringsbehandler"
 
 #: src/main.cpp:36
 msgid "Handles your Telepathy file transfers"
-msgstr ""
+msgstr "Behandler dine Telepathy filoverføringer"
 
 #: src/main.cpp:38
 msgid ""
 "Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
 "domenichelli@gmail.com>"
 msgstr ""
+"Copyright © 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
+"domenichelli@gmail.com>"
 
 #: src/main.cpp:39
 msgid "Daniele E. Domenichelli"
@@ -140,7 +142,7 @@ msgstr "Utvikler"
 
 #: src/main.cpp:44
 msgid "Alin M Elena"
-msgstr ""
+msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
 #: src/main.cpp:48
@@ -149,7 +151,7 @@ msgstr "Bidragsyter"
 
 #: src/main.cpp:45
 msgid "Dario Freddi"
-msgstr ""
+msgstr "Dario Freddi"
 
 #: src/main.cpp:46
 msgid "David Edmundson"
@@ -157,11 +159,11 @@ msgstr "David Edmundson"
 
 #: src/main.cpp:47
 msgid "George Kiagiadakis"
-msgstr ""
+msgstr "George Kiagiadakis"
 
 #: src/main.cpp:48
 msgid "Martin Klapetek"
-msgstr ""
+msgstr "Martin Klapetek"
 
 #: src/main.cpp:51
 msgctxt "NAME OF TRANSLATORS"
