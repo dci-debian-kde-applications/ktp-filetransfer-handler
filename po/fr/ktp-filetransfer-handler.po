@@ -1,8 +1,8 @@
 # translation of ktp-filetransfer-handler.po to Français
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Joëlle Cornavin <jcorn@free.fr>, 2011, 2012.
 #
+# Joëlle Cornavin <jcorn@free.fr>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-filetransfer-handler\n"
@@ -196,15 +196,3 @@ msgstr " - %1 : %2"
 
 #~ msgid "Cannot handle outgoing file transfer without URI"
 #~ msgstr "Impossible de gérer le transfert de fichiers sortants sans URI"
-
-#~ msgid "Persistent mode (do not exit on timeout)"
-#~ msgstr "Mode persistant (ne se ferme pas à l'expiration du délai d'attente)"
-
-#~ msgid "Show Telepathy debugging information"
-#~ msgstr "Afficher les informations de débogage de Telepathy"
-
-#~ msgid "KDE Telepathy"
-#~ msgstr "Telepathy pour KDE"
-
-#~ msgid "Unknown channel type"
-#~ msgstr "Type de canal inconnu"
