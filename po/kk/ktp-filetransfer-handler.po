@@ -1,195 +1,187 @@
-# Translation of ktp-filetransfer-handler.po into Serbian.
-# Mladen Pejakovic <pejakm@gmail.com>, 2012.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2012.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sairan Kikkarin <sairan@computer.org>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: ktp-filetransfer-handler\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-02-15 10:31+0100\n"
-"PO-Revision-Date: 2012-06-15 21:25+0200\n"
-"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
-"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
-"Language: sr@ijekavian\n"
+"PO-Revision-Date: 2013-03-24 07:17+0600\n"
+"Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
+"Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
+"Language: kk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
-"X-Environment: kde\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: src/filetransfer-handler.cpp:85
 msgctxt "This is the download directory in user's home"
 msgid "Downloads"
-msgstr "Преузимања"
+msgstr "Жүктеп алулар"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:127
 #: src/handle-outgoing-file-transfer-channel-job.cpp:115
 msgid "Invalid channel"
-msgstr "Лош канал"
+msgstr "Жарамсыз арна"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:136
 #: src/handle-outgoing-file-transfer-channel-job.cpp:124
 msgid "Channel is not ready"
-msgstr "Канал није спреман"
+msgstr "Арна дайын емес"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:182
 msgid "Incoming file exists"
-msgstr "Долазни фајл постоји"
+msgstr "Келетін файл бар"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:240
 msgid "Unknown Error"
-msgstr "Непозната грешка"
+msgstr "Беймәлім қате"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:258
 msgid "Would you like to resume partial download?"
-msgstr "Желите ли да наставите дјелимично преузимање?"
+msgstr "Бітпеген жүктеп алуды жалғастыру керек пе?"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:377
 #: src/handle-incoming-file-transfer-channel-job.cpp:431
 msgid "Incoming file transfer"
-msgstr "Примање фајла"
+msgstr "Кіріс файл тасымалы"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:378
 msgid "From"
-msgstr "Од"
+msgstr "Мынадан:"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:379
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
-msgstr "Име фајла"
+msgstr "Файл атауы"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:396
 msgid "Impossible to resume file transfer. Restarting."
-msgstr "Није могуће наставити пренос фајла. Почињем из почетка."
+msgstr "Файл тасымалын жалғастыруы болмады. Жаңадан бастау."
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:418
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
-msgstr "Непозната грешка"
+msgstr "Беймәлім қате пайда болды"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:438
 msgid "Incoming file transfer was canceled."
-msgstr "Примање фајла је отказано."
+msgstr "Кіріс файл тасымалы доғарылды."
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:475
 msgid "Unable to accept file"
-msgstr "Не могу да прихватим фајл"
+msgstr "Файл қабылданбады"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:488
 msgid "Cannot cancel incoming file transfer"
-msgstr "Не могу да откажем примање фајла"
+msgstr "Кіріс файл тасымалы доғарылмады"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:501
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, kde-format
 msgid "File transfer invalidated. %1"
-msgstr "Пренос фајла је поништен. %1"
+msgstr "Файл тасымалдауы дұрыс емес деп табылды. %1"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:133
 msgid "URI property is missing"
-msgstr "Недостаје параметар УРИ‑ја"
+msgstr "URI қасиетері жетіспейді"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:141
 msgid "This is not a local file"
-msgstr "Ово није локални фајл"
+msgstr "Бұл жергілікті файл емес"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:176
 #: src/handle-outgoing-file-transfer-channel-job.cpp:229
 msgid "Outgoing file transfer"
-msgstr "Слање фајла"
+msgstr "Шығыс файл тасымалы"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:177
 msgid "To"
-msgstr "За"
+msgstr "Мынаған:"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:234
 msgid "Outgoing file transfer was canceled."
-msgstr "Слање фајла је отказано."
+msgstr "Шығыс файл тасымалы доғарылды."
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:282
 msgid "Cannot provide file"
-msgstr "Не могу да обезбиједим фајл"
+msgstr "Файлы беру болмады"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:295
 msgid "Cannot cancel outgoing file transfer"
-msgstr "Не могу да откажем слање фајла"
+msgstr "Шығыс файл тасымалы доғарылмады"
 
 #: src/main.cpp:34
 msgid "Telepathy File Transfer Handler"
-msgstr "Телепатијски руковалац преносом фајлова"
+msgstr "Telepathy файл талдағышы"
 
 #: src/main.cpp:36
 msgid "Handles your Telepathy file transfers"
-msgstr "Обрађује телепатијске преносе фајлова"
+msgstr "Telepathy файл тасымалымен айналасу"
 
 #: src/main.cpp:38
 msgid ""
 "Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
 "domenichelli@gmail.com>"
 msgstr ""
-"© 2010, 2011, 2012, Данијеле Доменичели &lt;daniele.domenichelli@gmail."
-"com&gt;"
+"Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
+"domenichelli@gmail.com>"
 
 #: src/main.cpp:39
 msgid "Daniele E. Domenichelli"
-msgstr "Данијеле Доменичели"
+msgstr "Daniele E. Domenichelli"
 
 #: src/main.cpp:40
 msgid "Developer"
-msgstr "Програмер"
+msgstr "Құрастырушы"
 
 #: src/main.cpp:44
 msgid "Alin M Elena"
-msgstr "Алин Елена"
+msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
 #: src/main.cpp:48
 msgid "Contributor"
-msgstr "Доприносилац"
+msgstr "Үлес қосушысы"
 
 #: src/main.cpp:45
 msgid "Dario Freddi"
-msgstr "Дарио Фреди"
+msgstr "Dario Freddi"
 
 #: src/main.cpp:46
 msgid "David Edmundson"
-msgstr "Дејвид Едмундсон"
+msgstr "David Edmundson"
 
 #: src/main.cpp:47
 msgid "George Kiagiadakis"
-msgstr "Георгиос Кјајадакис"
+msgstr "George Kiagiadakis"
 
 #: src/main.cpp:48
 msgid "Martin Klapetek"
-msgstr "Мартин Клапетек"
+msgstr "Martin Klapetek"
 
 #: src/main.cpp:51
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Младен Пејаковић"
+msgstr "Сайран Киккарин"
 
 #: src/main.cpp:52
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "pejakm@gmail.com"
+msgstr "sairan@computer.org"
 
 #: src/telepathy-base-job.cpp:96
 #, kde-format
 msgid "Telepathy reported an error while performing the requested operation:"
 msgid_plural ""
 "Telepathy reported %1 errors while performing the requested operation:"
-msgstr[0] ""
-"Телепатије пријављује %1 грешку при извршавању захтијеваног поступка:"
-msgstr[1] ""
-"Телепатије пријављује %1 грешке при извршавању захтијеваног поступка:"
-msgstr[2] ""
-"Телепатије пријављује %1 грешака при извршавању захтијеваног поступка:"
-msgstr[3] "Телепатије пријављује грешку при извршавању захтијеваног поступка:"
+msgstr[0] "Telepathy талап етілген амал кезінде %1 қате туралы хабарлады:"
 
 #: src/telepathy-base-job.cpp:103
 #, kde-format
 msgctxt "The following format is: ' - <error name>: <error message>'"
 msgid " - %1: %2"
-msgstr " — %1: %2"
+msgstr " - %1: %2"

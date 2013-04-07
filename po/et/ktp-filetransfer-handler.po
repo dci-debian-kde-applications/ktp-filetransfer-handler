@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-02-15 10:31+0100\n"
-"PO-Revision-Date: 2012-06-18 18:21+0300\n"
+"PO-Revision-Date: 2012-06-11 17:30+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <kde-et@linux.ee>\n"
 "Language: et\n"
@@ -194,6 +194,7 @@ msgstr " - %1: %2"
 #~ msgstr "Väljuva failiülekande käitlemine ilma URI-ta ei ole võimalik"
 
 #, fuzzy
+#~| msgid "Persistant mode (does not exit on timeout)"
 #~ msgid "Persistent mode (do not exit on timeout)"
 #~ msgstr "Püsiv režiim (ajaületuse korral ei väljuta)"
 
