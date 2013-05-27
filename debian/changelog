@@ -1,4 +1,4 @@
-ktp-filetransfer-handler (0.6.1-1) UNRELEASED; urgency=low
+ktp-filetransfer-handler (0.6.2-1) UNRELEASED; urgency=low
 
   [ Ritesh Raj Sarraf ]
   * [e05a38b] Imported Upstream version 0.5.1
@@ -7,6 +7,8 @@ ktp-filetransfer-handler (0.6.1-1) UNRELEASED; urgency=low
 
   [ Diane Trout ]
   * [f134e70] Imported Upstream version 0.6.1
+  * Imported Upstream version 0.6.2
+  * Bump ktp-common-internals and kde-telepathy-data dependencies to 0.6.2
 
  -- Diane Trout <diane@ghic.org>  Fri, 17 May 2013 14:13:24 -0700
 
