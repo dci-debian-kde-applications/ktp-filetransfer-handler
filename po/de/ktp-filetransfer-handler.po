@@ -1,12 +1,12 @@
-# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2012.
+# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2012, 2013.
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2011.
 # Frederik Schwarzer <schwarzer@kde.org>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-15 10:31+0100\n"
-"PO-Revision-Date: 2012-12-01 11:40+0100\n"
+"POT-Creation-Date: 2013-04-19 10:29+0200\n"
+"PO-Revision-Date: 2013-04-20 22:19+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -143,7 +143,7 @@ msgid "Alin M Elena"
 msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48
+#: src/main.cpp:48 src/main.cpp:49
 msgid "Contributor"
 msgstr "Mitwirkender"
 
@@ -163,12 +163,16 @@ msgstr "George Kiagiadakis"
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: src/main.cpp:51
+#: src/main.cpp:49
+msgid "Andrea Scarpino"
+msgstr "Andrea Scarpino"
+
+#: src/main.cpp:52
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Panagiotis Papadopoulos"
 
-#: src/main.cpp:52
+#: src/main.cpp:53
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "pano_90@gmx.net"
