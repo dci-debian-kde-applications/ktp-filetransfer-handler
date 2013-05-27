@@ -1,12 +1,12 @@
 # Translation of ktp-filetransfer-handler.po into Serbian.
 # Mladen Pejakovic <pejakm@gmail.com>, 2012.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2012.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-15 10:31+0100\n"
-"PO-Revision-Date: 2012-06-15 21:25+0200\n"
+"POT-Creation-Date: 2013-04-19 10:29+0200\n"
+"PO-Revision-Date: 2013-04-19 14:17+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr\n"
@@ -145,7 +145,7 @@ msgid "Alin M Elena"
 msgstr "Алин Елена"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48
+#: src/main.cpp:48 src/main.cpp:49
 msgid "Contributor"
 msgstr "Доприносилац"
 
@@ -165,12 +165,16 @@ msgstr "Георгиос Кјајадакис"
 msgid "Martin Klapetek"
 msgstr "Мартин Клапетек"
 
-#: src/main.cpp:51
+#: src/main.cpp:49
+msgid "Andrea Scarpino"
+msgstr "Андреа Скарпино"
+
+#: src/main.cpp:52
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Младен Пејаковић"
 
-#: src/main.cpp:52
+#: src/main.cpp:53
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "pejakm@gmail.com"

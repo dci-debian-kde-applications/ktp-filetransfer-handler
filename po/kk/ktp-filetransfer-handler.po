@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-15 10:31+0100\n"
-"PO-Revision-Date: 2013-03-24 07:17+0600\n"
+"POT-Creation-Date: 2013-04-19 10:29+0200\n"
+"PO-Revision-Date: 2013-04-21 02:46+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
 "Language: kk\n"
@@ -143,7 +143,7 @@ msgid "Alin M Elena"
 msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48
+#: src/main.cpp:48 src/main.cpp:49
 msgid "Contributor"
 msgstr "Үлес қосушысы"
 
@@ -163,12 +163,16 @@ msgstr "George Kiagiadakis"
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: src/main.cpp:51
+#: src/main.cpp:49
+msgid "Andrea Scarpino"
+msgstr "Andrea Scarpino"
+
+#: src/main.cpp:52
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Сайран Киккарин"
 
-#: src/main.cpp:52
+#: src/main.cpp:53
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sairan@computer.org"

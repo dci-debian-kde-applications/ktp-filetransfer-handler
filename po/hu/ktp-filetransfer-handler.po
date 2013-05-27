@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-15 10:31+0100\n"
+"POT-Creation-Date: 2013-04-19 10:29+0200\n"
 "PO-Revision-Date: 2012-06-12 00:47+0200\n"
 "Last-Translator: Kristóf Kiszel <ulysses@kubuntu.org>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -143,7 +143,7 @@ msgid "Alin M Elena"
 msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48
+#: src/main.cpp:48 src/main.cpp:49
 msgid "Contributor"
 msgstr "Közreműködő"
 
@@ -163,12 +163,16 @@ msgstr "George Kiagiadakis"
 msgid "Martin Klapetek"
 msgstr "Martin Klapetek"
 
-#: src/main.cpp:51
+#: src/main.cpp:49
+msgid "Andrea Scarpino"
+msgstr ""
+
+#: src/main.cpp:52
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Kiszel Kristóf"
 
-#: src/main.cpp:52
+#: src/main.cpp:53
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ulysses@kubuntu.org"
