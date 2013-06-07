@@ -9,6 +9,7 @@ ktp-filetransfer-handler (0.6.2-1) UNRELEASED; urgency=low
   * [f134e70] Imported Upstream version 0.6.1
   * Imported Upstream version 0.6.2
   * Bump ktp-common-internals and kde-telepathy-data dependencies to 0.6.2
+  * Set Uploaders to Diane Trout and Michał Zając
 
  -- Diane Trout <diane@ghic.org>  Fri, 17 May 2013 14:13:24 -0700
 
