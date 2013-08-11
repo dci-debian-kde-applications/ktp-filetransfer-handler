@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-19 10:29+0200\n"
-"PO-Revision-Date: 2013-02-10 19:40+0100\n"
+"PO-Revision-Date: 2013-05-25 12:06+0200\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -167,7 +167,7 @@ msgstr "Martin Klapetek"
 
 #: src/main.cpp:49
 msgid "Andrea Scarpino"
-msgstr ""
+msgstr "Andrea Scarpino"
 
 #: src/main.cpp:52
 msgctxt "NAME OF TRANSLATORS"
