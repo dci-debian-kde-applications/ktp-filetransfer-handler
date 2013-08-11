@@ -168,7 +168,7 @@ msgstr "Martin Klapetek"
 
 #: src/main.cpp:49
 msgid "Andrea Scarpino"
-msgstr ""
+msgstr "Andrea Scarpino"
 
 #: src/main.cpp:52
 msgctxt "NAME OF TRANSLATORS"
