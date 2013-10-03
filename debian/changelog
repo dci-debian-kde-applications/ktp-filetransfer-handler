@@ -1,3 +1,9 @@
+ktp-filetransfer-handler (0.6.80-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Diane Trout <diane@ghic.org>  Sun, 29 Sep 2013 14:15:52 -0700
+
 ktp-filetransfer-handler (0.6.3-1) unstable; urgency=low
 
   [ Diane Trout ]
