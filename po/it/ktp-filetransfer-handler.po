@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktp-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-19 10:29+0200\n"
-"PO-Revision-Date: 2013-04-19 13:54+0200\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"PO-Revision-Date: 2013-04-19 09:31+0200\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -18,71 +18,71 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: src/filetransfer-handler.cpp:85
+#: src/filetransfer-handler.cpp:88
 msgctxt "This is the download directory in user's home"
 msgid "Downloads"
 msgstr "Scaricamenti"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:127
+#: src/handle-incoming-file-transfer-channel-job.cpp:133
 #: src/handle-outgoing-file-transfer-channel-job.cpp:115
 msgid "Invalid channel"
 msgstr "Canale non valido"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:136
+#: src/handle-incoming-file-transfer-channel-job.cpp:142
 #: src/handle-outgoing-file-transfer-channel-job.cpp:124
 msgid "Channel is not ready"
 msgstr "Il canale non è pronto"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:182
+#: src/handle-incoming-file-transfer-channel-job.cpp:206
 msgid "Incoming file exists"
 msgstr "Il file in arrivo esiste già"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:240
+#: src/handle-incoming-file-transfer-channel-job.cpp:265
 msgid "Unknown Error"
 msgstr "Errore sconosciuto"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:258
+#: src/handle-incoming-file-transfer-channel-job.cpp:283
 msgid "Would you like to resume partial download?"
 msgstr "Vuoi riprendere lo scaricamento parzialmente completato?"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:377
-#: src/handle-incoming-file-transfer-channel-job.cpp:431
+#: src/handle-incoming-file-transfer-channel-job.cpp:402
+#: src/handle-incoming-file-transfer-channel-job.cpp:456
 msgid "Incoming file transfer"
 msgstr "Trasferimento di file in arrivo"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:378
+#: src/handle-incoming-file-transfer-channel-job.cpp:403
 msgid "From"
 msgstr "Da"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:379
+#: src/handle-incoming-file-transfer-channel-job.cpp:404
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
 msgstr "Nome del file"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:396
+#: src/handle-incoming-file-transfer-channel-job.cpp:421
 msgid "Impossible to resume file transfer. Restarting."
 msgstr ""
 "Non è possibile riprendere il trasferimento di file, che sarà ora "
 "riscaricato dall'inizio."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:418
+#: src/handle-incoming-file-transfer-channel-job.cpp:443
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
 msgstr "Si è verificato un errore sconosciuto"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:438
+#: src/handle-incoming-file-transfer-channel-job.cpp:463
 msgid "Incoming file transfer was canceled."
 msgstr "Il trasferimento di file in arrivo è stato annullato."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:475
+#: src/handle-incoming-file-transfer-channel-job.cpp:500
 msgid "Unable to accept file"
 msgstr "Non è possibile accettare il file"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:488
+#: src/handle-incoming-file-transfer-channel-job.cpp:513
 msgid "Cannot cancel incoming file transfer"
 msgstr "Non è possibile annullare il trasferimento di file in arrivo"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:501
+#: src/handle-incoming-file-transfer-channel-job.cpp:526
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, kde-format
 msgid "File transfer invalidated. %1"
