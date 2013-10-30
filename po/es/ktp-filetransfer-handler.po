@@ -3,13 +3,14 @@
 #
 # Eloy Cuadra <ecuadra@eloihr.net>, 2011, 2012, 2013.
 # Kira J. Fernandez <kirajfdez@gmail.com>, 2012.
+# Raul Gonzalez <raulgf83@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-19 10:29+0200\n"
-"PO-Revision-Date: 2013-04-20 10:27+0200\n"
-"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"PO-Revision-Date: 2013-10-09 21:58+0200\n"
+"Last-Translator: Raul Gonzalez <raulgf83@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -18,69 +19,69 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: src/filetransfer-handler.cpp:85
+#: src/filetransfer-handler.cpp:88
 msgctxt "This is the download directory in user's home"
 msgid "Downloads"
 msgstr "Descargas"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:127
+#: src/handle-incoming-file-transfer-channel-job.cpp:133
 #: src/handle-outgoing-file-transfer-channel-job.cpp:115
 msgid "Invalid channel"
 msgstr "Canal no válido"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:136
+#: src/handle-incoming-file-transfer-channel-job.cpp:142
 #: src/handle-outgoing-file-transfer-channel-job.cpp:124
 msgid "Channel is not ready"
 msgstr "El canal no está preparado"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:182
+#: src/handle-incoming-file-transfer-channel-job.cpp:206
 msgid "Incoming file exists"
 msgstr "El archivo entrante ya existe"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:240
+#: src/handle-incoming-file-transfer-channel-job.cpp:265
 msgid "Unknown Error"
 msgstr "error desconocido"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:258
+#: src/handle-incoming-file-transfer-channel-job.cpp:283
 msgid "Would you like to resume partial download?"
 msgstr "¿Desearía reanudar la descarga parcial?"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:377
-#: src/handle-incoming-file-transfer-channel-job.cpp:431
+#: src/handle-incoming-file-transfer-channel-job.cpp:402
+#: src/handle-incoming-file-transfer-channel-job.cpp:456
 msgid "Incoming file transfer"
 msgstr "Transferencia de archivo entrante"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:378
+#: src/handle-incoming-file-transfer-channel-job.cpp:403
 msgid "From"
 msgstr "De"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:379
+#: src/handle-incoming-file-transfer-channel-job.cpp:404
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
 msgstr "Nombre de archivo"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:396
+#: src/handle-incoming-file-transfer-channel-job.cpp:421
 msgid "Impossible to resume file transfer. Restarting."
 msgstr "Imposible reanudar la transferencia del archivo. Reiniciando."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:418
+#: src/handle-incoming-file-transfer-channel-job.cpp:443
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
 msgstr "Ha ocurrido un error desconocido"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:438
+#: src/handle-incoming-file-transfer-channel-job.cpp:463
 msgid "Incoming file transfer was canceled."
 msgstr "Se ha cancelado la transferencia del archivo entrante."
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:475
+#: src/handle-incoming-file-transfer-channel-job.cpp:500
 msgid "Unable to accept file"
 msgstr "No se puede aceptar el archivo"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:488
+#: src/handle-incoming-file-transfer-channel-job.cpp:513
 msgid "Cannot cancel incoming file transfer"
 msgstr "No se puede cancelar la transferencia de archivo entrante"
 
-#: src/handle-incoming-file-transfer-channel-job.cpp:501
+#: src/handle-incoming-file-transfer-channel-job.cpp:526
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, kde-format
 msgid "File transfer invalidated. %1"
@@ -171,12 +172,12 @@ msgstr "Andrea Scarpino"
 #: src/main.cpp:52
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Eloy Cuadra"
+msgstr "Raúl González,Eloy Cuadra"
 
 #: src/main.cpp:53
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "ecuadra@eloihr.net"
+msgstr "raulgf83@gmail.com,ecuadra@eloihr.net"
 
 #: src/telepathy-base-job.cpp:96
 #, kde-format
