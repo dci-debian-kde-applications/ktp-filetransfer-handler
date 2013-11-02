@@ -1,6 +1,7 @@
 ktp-filetransfer-handler (0.7.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Bump ktp-common-internals and kde-telepathy-data to 0.7.0
 
  -- Diane Trout <diane@ghic.org>  Tue, 29 Oct 2013 22:22:07 -0700
 
