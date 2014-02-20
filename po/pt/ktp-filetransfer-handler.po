@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktp-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"POT-Creation-Date: 2013-09-29 01:42+0000\n"
 "PO-Revision-Date: 2013-04-19 12:54+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: Domenichelli Daniele Telepathy Freddi Alin Edmundson\n"
-"X-POFile-SpellExtra: Kiagiadakis Elena Klapetek Andrea Scarpino\n"
+"X-POFile-SpellExtra: Kiagiadakis Elena Klapetek Andrea Scarpino Vrátil\n"
 
 #: src/filetransfer-handler.cpp:88
 msgctxt "This is the download directory in user's home"
@@ -140,7 +140,7 @@ msgid "Alin M Elena"
 msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48 src/main.cpp:49
+#: src/main.cpp:48 src/main.cpp:49 src/main.cpp:50
 msgid "Contributor"
 msgstr "Contribuinte"
 
@@ -164,12 +164,16 @@ msgstr "Martin Klapetek"
 msgid "Andrea Scarpino"
 msgstr "Andrea Scarpino"
 
-#: src/main.cpp:52
+#: src/main.cpp:50
+msgid "Dan Vrátil"
+msgstr "Dan Vrátil"
+
+#: src/main.cpp:54
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "José Nuno Pires"
 
-#: src/main.cpp:53
+#: src/main.cpp:55
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zepires@gmail.com"
@@ -187,12 +191,3 @@ msgstr[1] "O Telepathy devolveu %1 erros ao efectuar a operação pedida:"
 msgctxt "The following format is: ' - <error name>: <error message>'"
 msgid " - %1: %2"
 msgstr " - %1: %2"
-
-#~ msgid "File transfer handler is exiting. Cannot start job"
-#~ msgstr ""
-#~ "A rotina de tratamento da transferência de ficheiros está a sair. Não é "
-#~ "possível iniciar a tarefa"
-
-#, fuzzy
-#~ msgid "Cannot handle outgoing file transfer without URI"
-#~ msgstr "Não é possível cancelar o envio do ficheiro"

@@ -1,134 +1,132 @@
+# Uyghur translation for ktp-filetransfer-handler.
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
+# Gheyret Kenji <gheyret@gmail.com>, YEAR.
 #
-# Stefan Asserhall <stefan.asserhall@bredband.net>, 2011, 2012, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: ktp-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-09-29 01:42+0000\n"
-"PO-Revision-Date: 2013-09-29 07:54+0200\n"
-"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
-"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
-"Language: sv\n"
+"PO-Revision-Date: 2013-09-08 07:04+0900\n"
+"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: src/filetransfer-handler.cpp:88
 msgctxt "This is the download directory in user's home"
 msgid "Downloads"
-msgstr "Nerladdningar"
+msgstr "چۈشۈرۈلمىلەر"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:133
 #: src/handle-outgoing-file-transfer-channel-job.cpp:115
 msgid "Invalid channel"
-msgstr "Ogiltig kanal"
+msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:142
 #: src/handle-outgoing-file-transfer-channel-job.cpp:124
 msgid "Channel is not ready"
-msgstr "Kanalen är inte klar"
+msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:206
 msgid "Incoming file exists"
-msgstr "Inkommande fil finns"
+msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:265
 msgid "Unknown Error"
-msgstr "Okänt fel"
+msgstr "نامەلۇم خاتالىق"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:283
 msgid "Would you like to resume partial download?"
-msgstr "Vill du återuppta partiell nerladdning?"
+msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:402
 #: src/handle-incoming-file-transfer-channel-job.cpp:456
 msgid "Incoming file transfer"
-msgstr "Inkommande filöverföring"
+msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:403
 msgid "From"
-msgstr "Från"
+msgstr "يوللىغۇچى"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:404
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
-msgstr "Filnamn"
+msgstr "ھۆججەت ئاتى"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:421
 msgid "Impossible to resume file transfer. Restarting."
-msgstr "Omöjligt att återuppta filöverföring. Börjar om."
+msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:443
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
-msgstr "Ett okänt fel uppstod"
+msgstr "نامەلۇم خاتالىق يۈز بەردى"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:463
 msgid "Incoming file transfer was canceled."
-msgstr "Inkommande filöverföring avbröts."
+msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:500
 msgid "Unable to accept file"
-msgstr "Kan inte acceptera fil"
+msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:513
 msgid "Cannot cancel incoming file transfer"
-msgstr "Kan inte avbryta inkommande filöverföring"
+msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:526
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, kde-format
 msgid "File transfer invalidated. %1"
-msgstr "Filöverföring ogiltiggjord. %1"
+msgstr ""
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:133
 msgid "URI property is missing"
-msgstr "Webbadress-egenskap saknas"
+msgstr ""
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:141
 msgid "This is not a local file"
-msgstr "Det här är inte en lokal fil"
+msgstr ""
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:176
 #: src/handle-outgoing-file-transfer-channel-job.cpp:229
 msgid "Outgoing file transfer"
-msgstr "Utgående filöverföring"
+msgstr ""
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:177
 msgid "To"
-msgstr "Till"
+msgstr "تاپشۇرۇپ ئالغۇچى"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:234
 msgid "Outgoing file transfer was canceled."
-msgstr "Utgående filöverföring avbröts."
+msgstr ""
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:282
 msgid "Cannot provide file"
-msgstr "Kan inte tillhandahålla fil"
+msgstr ""
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:295
 msgid "Cannot cancel outgoing file transfer"
-msgstr "Kan inte avbryta utgående filöverföring"
+msgstr ""
 
 #: src/main.cpp:34
 msgid "Telepathy File Transfer Handler"
-msgstr "Telepathy-filöverföringshanterare"
+msgstr ""
 
 #: src/main.cpp:36
 msgid "Handles your Telepathy file transfers"
-msgstr "Hanterar Telepathy filöverföringar"
+msgstr ""
 
 #: src/main.cpp:38
 msgid ""
 "Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
 "domenichelli@gmail.com>"
 msgstr ""
-"Copyright © 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
-"domenichelli@gmail.com>"
 
 #: src/main.cpp:39
 msgid "Daniele E. Domenichelli"
@@ -136,16 +134,16 @@ msgstr "Daniele E. Domenichelli"
 
 #: src/main.cpp:40
 msgid "Developer"
-msgstr "Utvecklare"
+msgstr "ئىجادىيەتچى"
 
 #: src/main.cpp:44
 msgid "Alin M Elena"
-msgstr "Alin M Elena"
+msgstr ""
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
 #: src/main.cpp:48 src/main.cpp:49 src/main.cpp:50
 msgid "Contributor"
-msgstr "Bidragsgivare"
+msgstr "تۆھپىكار"
 
 #: src/main.cpp:45
 msgid "Dario Freddi"
@@ -165,66 +163,31 @@ msgstr "Martin Klapetek"
 
 #: src/main.cpp:49
 msgid "Andrea Scarpino"
-msgstr "Andrea Scarpino"
+msgstr ""
 
 #: src/main.cpp:50
 msgid "Dan Vrátil"
-msgstr "Dan Vrátil"
+msgstr ""
 
 #: src/main.cpp:54
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Stefan Asserhäll"
+msgstr "ئابدۇقادىر ئابلىز, غەيرەت كەنجى"
 
 #: src/main.cpp:55
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "stefan.asserhall@bredband.net"
+msgstr "sahran.ug@gmail.com,  gheyret@gmail.com"
 
 #: src/telepathy-base-job.cpp:96
 #, kde-format
 msgid "Telepathy reported an error while performing the requested operation:"
 msgid_plural ""
 "Telepathy reported %1 errors while performing the requested operation:"
-msgstr[0] "Telepathy gav ett fel när följande operation utfördes:"
-msgstr[1] "Telepathy gav %1 fel när följande operationer utfördes:"
+msgstr[0] ""
 
 #: src/telepathy-base-job.cpp:103
 #, kde-format
 msgctxt "The following format is: ' - <error name>: <error message>'"
 msgid " - %1: %2"
-msgstr " - %1: %2"
-
-#~ msgid "File transfer handler is exiting. Cannot start job"
-#~ msgstr ""
-#~ "Filöverföringshanteraren håller på att avslutas. Kan inte starta jobb."
-
-#~ msgid "Cannot handle outgoing file transfer without URI"
-#~ msgstr "Kan inte hantera utgående filöverföring utan webbadress"
-
-#~ msgid "Persistent mode (do not exit on timeout)"
-#~ msgstr "Bestående läge (avsluta inte vid överskriden tidsgräns)"
-
-#~ msgid "Show Telepathy debugging information"
-#~ msgstr "Visa felsökningsinformation för Telepathy"
-
-#~ msgid "KDE Telepathy"
-#~ msgstr "KDE Telepathy"
-
-#~ msgid "Unknown channel type"
-#~ msgstr "Okänd kanaltyp"
-
-#~ msgid "Transfer completed"
-#~ msgstr "Överföring färdig"
-
-#~ msgid "Transferred bytes"
-#~ msgstr "Överförda byte"
-
-#~ msgid "Transfer completed."
-#~ msgstr "Överföring färdig."
-
-#~ msgid "Unable to set the URI"
-#~ msgstr "Kan inte ställa in webbadressen"
-
-#~ msgid "Transfer completed!"
-#~ msgstr "Överföring klar."
+msgstr ""

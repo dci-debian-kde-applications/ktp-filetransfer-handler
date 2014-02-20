@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: telepathy-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-24 05:32+0000\n"
+"POT-Creation-Date: 2013-09-29 01:42+0000\n"
 "PO-Revision-Date: 2011-06-16 17:34+0200\n"
 "Last-Translator: Manfred Wiese <m.j.wiese@web.de>\n"
 "Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
@@ -48,6 +48,7 @@ msgstr ""
 #: src/handle-incoming-file-transfer-channel-job.cpp:402
 #: src/handle-incoming-file-transfer-channel-job.cpp:456
 #, fuzzy
+#| msgid "Incoming file exists"
 msgid "Incoming file transfer"
 msgstr "Ankamen Datei al vörhannen"
 
@@ -71,6 +72,7 @@ msgstr ""
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:463
 #, fuzzy
+#| msgid "Transfer was canceled."
 msgid "Incoming file transfer was canceled."
 msgstr "Överdregen wöör afbraken."
 
@@ -85,6 +87,7 @@ msgstr ""
 #: src/handle-incoming-file-transfer-channel-job.cpp:526
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, fuzzy, kde-format
+#| msgid "File transfer invalidated!"
 msgid "File transfer invalidated. %1"
 msgstr "Leeg Dateiöverdregen"
 
@@ -107,6 +110,7 @@ msgstr ""
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:234
 #, fuzzy
+#| msgid "Transfer was canceled."
 msgid "Outgoing file transfer was canceled."
 msgstr "Överdregen wöör afbraken."
 
@@ -124,6 +128,7 @@ msgstr "Telepathy-Dateihanteerprogramm"
 
 #: src/main.cpp:36
 #, fuzzy
+#| msgid "Telepathy File Transfer Handler"
 msgid "Handles your Telepathy file transfers"
 msgstr "Telepathy-Dateihanteerprogramm"
 
@@ -146,7 +151,7 @@ msgid "Alin M Elena"
 msgstr ""
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48 src/main.cpp:49
+#: src/main.cpp:48 src/main.cpp:49 src/main.cpp:50
 msgid "Contributor"
 msgstr ""
 
@@ -170,12 +175,16 @@ msgstr ""
 msgid "Andrea Scarpino"
 msgstr ""
 
-#: src/main.cpp:52
+#: src/main.cpp:50
+msgid "Dan Vrátil"
+msgstr ""
+
+#: src/main.cpp:54
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Manfred Wiese"
 
-#: src/main.cpp:53
+#: src/main.cpp:55
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "m.j.wiese@web.de"
