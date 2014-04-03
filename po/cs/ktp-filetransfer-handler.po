@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-29 01:42+0000\n"
-"PO-Revision-Date: 2013-10-01 17:26+0200\n"
-"Last-Translator: Vít Pelčák <vit@pelcak.org>\n"
+"POT-Creation-Date: 2013-10-29 05:04+0000\n"
+"PO-Revision-Date: 2013-04-22 09:39+0200\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -143,7 +143,7 @@ msgid "Alin M Elena"
 msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48 src/main.cpp:49 src/main.cpp:50
+#: src/main.cpp:48 src/main.cpp:49
 msgid "Contributor"
 msgstr "Přispěvatel"
 
@@ -167,21 +167,17 @@ msgstr "Martin Klapetek"
 msgid "Andrea Scarpino"
 msgstr "Andrea Scarpino"
 
-#: src/main.cpp:50
-msgid "Dan Vrátil"
-msgstr "Dan Vrátil"
-
-#: src/main.cpp:54
+#: src/main.cpp:52
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Tomáš Chvátal"
 
-#: src/main.cpp:55
+#: src/main.cpp:53
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "tomas.chvatal@gmail.com"
 
-#: src/telepathy-base-job.cpp:96
+#: src/telepathy-base-job.cpp:119
 #, kde-format
 msgid "Telepathy reported an error while performing the requested operation:"
 msgid_plural ""
@@ -190,7 +186,7 @@ msgstr[0] "Telepathy oznámilo chybu při provádění vyžadované operace:"
 msgstr[1] "Telepathy oznámilo %1 chyby při provádění vyžadované operace:"
 msgstr[2] "Telepathy oznámilo %1 chyb při provádění vyžadované operace:"
 
-#: src/telepathy-base-job.cpp:103
+#: src/telepathy-base-job.cpp:126
 #, kde-format
 msgctxt "The following format is: ' - <error name>: <error message>'"
 msgid " - %1: %2"

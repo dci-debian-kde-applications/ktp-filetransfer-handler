@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-29 01:42+0000\n"
+"POT-Creation-Date: 2013-10-29 05:04+0000\n"
 "PO-Revision-Date: 2013-03-22 17:16+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -141,7 +141,7 @@ msgid "Alin M Elena"
 msgstr ""
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48 src/main.cpp:49 src/main.cpp:50
+#: src/main.cpp:48 src/main.cpp:49
 msgid "Contributor"
 msgstr "सहायक"
 
@@ -165,21 +165,17 @@ msgstr "मार्टिन क्लपेटेक"
 msgid "Andrea Scarpino"
 msgstr ""
 
-#: src/main.cpp:50
-msgid "Dan Vrátil"
-msgstr ""
-
-#: src/main.cpp:54
+#: src/main.cpp:52
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "चेतन खोना"
 
-#: src/main.cpp:55
+#: src/main.cpp:53
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "chetan@kompkin.com"
 
-#: src/telepathy-base-job.cpp:96
+#: src/telepathy-base-job.cpp:119
 #, kde-format
 msgid "Telepathy reported an error while performing the requested operation:"
 msgid_plural ""
@@ -187,7 +183,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/telepathy-base-job.cpp:103
+#: src/telepathy-base-job.cpp:126
 #, kde-format
 msgctxt "The following format is: ' - <error name>: <error message>'"
 msgid " - %1: %2"

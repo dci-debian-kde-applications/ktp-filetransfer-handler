@@ -1,132 +1,134 @@
-# Uyghur translation for ktp-filetransfer-handler.
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Gheyret Kenji <gheyret@gmail.com>, YEAR.
 #
+# Park Shinjo <peremen@gmail.com>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: ktp-filetransfer-handler\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-29 01:42+0000\n"
-"PO-Revision-Date: 2013-09-08 07:04+0900\n"
-"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
-"Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2013-10-29 05:04+0000\n"
+"PO-Revision-Date: 2014-03-09 04:49+0900\n"
+"Last-Translator: Park Shinjo <peremen@gmail.com>\n"
+"Language-Team: Korean <kde@peremen.name>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: src/filetransfer-handler.cpp:88
 msgctxt "This is the download directory in user's home"
 msgid "Downloads"
-msgstr "چۈشۈرۈلمىلەر"
+msgstr "다운로드"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:133
 #: src/handle-outgoing-file-transfer-channel-job.cpp:115
 msgid "Invalid channel"
-msgstr ""
+msgstr "잘못된 채널"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:142
 #: src/handle-outgoing-file-transfer-channel-job.cpp:124
 msgid "Channel is not ready"
-msgstr ""
+msgstr "채널이 준비되지 않았음"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:206
 msgid "Incoming file exists"
-msgstr ""
+msgstr "받는 파일이 존재함"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:265
 msgid "Unknown Error"
-msgstr "نامەلۇم خاتالىق"
+msgstr "알 수 없는 오류"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:283
 msgid "Would you like to resume partial download?"
-msgstr ""
+msgstr "부분 다운로드를 다시 시작하시겠습니까?"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:402
 #: src/handle-incoming-file-transfer-channel-job.cpp:456
 msgid "Incoming file transfer"
-msgstr ""
+msgstr "받는 파일 전송 요청"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:403
 msgid "From"
-msgstr "يوللىغۇچى"
+msgstr "보낸 사람"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:404
 #: src/handle-outgoing-file-transfer-channel-job.cpp:178
 msgid "Filename"
-msgstr "ھۆججەت ئاتى"
+msgstr "파일 이름"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:421
 msgid "Impossible to resume file transfer. Restarting."
-msgstr ""
+msgstr "파일 전송을 다시 시작할 수 없습니다. 처음부터 다시 시작합니다."
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:443
 #: src/handle-outgoing-file-transfer-channel-job.cpp:224
 msgid "An unknown error occurred"
-msgstr "نامەلۇم خاتالىق يۈز بەردى"
+msgstr "알 수 없는 오류가 발생하였습니다."
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:463
 msgid "Incoming file transfer was canceled."
-msgstr ""
+msgstr "파일 수신이 취소되었습니다."
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:500
 msgid "Unable to accept file"
-msgstr ""
+msgstr "파일을 받을 수 없음"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:513
 msgid "Cannot cancel incoming file transfer"
-msgstr ""
+msgstr "받는 파일 전송 요청을 취소할 수 없음"
 
 #: src/handle-incoming-file-transfer-channel-job.cpp:526
 #: src/handle-outgoing-file-transfer-channel-job.cpp:308
 #, kde-format
 msgid "File transfer invalidated. %1"
-msgstr ""
+msgstr "파일 전송이 무효화되었습니다. %1"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:133
 msgid "URI property is missing"
-msgstr ""
+msgstr "URI 속성이 없음"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:141
 msgid "This is not a local file"
-msgstr ""
+msgstr "로컬 파일이 아님"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:176
 #: src/handle-outgoing-file-transfer-channel-job.cpp:229
 msgid "Outgoing file transfer"
-msgstr ""
+msgstr "보내는 파일 전송"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:177
 msgid "To"
-msgstr "تاپشۇرۇپ ئالغۇچى"
+msgstr "받는 사람"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:234
 msgid "Outgoing file transfer was canceled."
-msgstr ""
+msgstr "파일 발신이 취소되었습니다."
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:282
 msgid "Cannot provide file"
-msgstr ""
+msgstr "파일을 제공할 수 없음"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:295
 msgid "Cannot cancel outgoing file transfer"
-msgstr ""
+msgstr "보내는 파일 전송 요청을 취소할 수 없음"
 
 #: src/main.cpp:34
 msgid "Telepathy File Transfer Handler"
-msgstr ""
+msgstr "Telepathy 파일 전송 핸들러"
 
 #: src/main.cpp:36
 msgid "Handles your Telepathy file transfers"
-msgstr ""
+msgstr "Telepathy 파일 전송 처리기"
 
 #: src/main.cpp:38
 msgid ""
 "Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
 "domenichelli@gmail.com>"
 msgstr ""
+"Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
+"domenichelli@gmail.com>"
 
 #: src/main.cpp:39
 msgid "Daniele E. Domenichelli"
@@ -134,16 +136,16 @@ msgstr "Daniele E. Domenichelli"
 
 #: src/main.cpp:40
 msgid "Developer"
-msgstr "ئىجادىيەتچى"
+msgstr "개발자"
 
 #: src/main.cpp:44
 msgid "Alin M Elena"
-msgstr ""
+msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48 src/main.cpp:49 src/main.cpp:50
+#: src/main.cpp:48 src/main.cpp:49
 msgid "Contributor"
-msgstr "تۆھپىكار"
+msgstr "기여자"
 
 #: src/main.cpp:45
 msgid "Dario Freddi"
@@ -163,31 +165,27 @@ msgstr "Martin Klapetek"
 
 #: src/main.cpp:49
 msgid "Andrea Scarpino"
-msgstr ""
+msgstr "Andrea Scarpino"
 
-#: src/main.cpp:50
-msgid "Dan Vrátil"
-msgstr ""
-
-#: src/main.cpp:54
+#: src/main.cpp:52
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "ئابدۇقادىر ئابلىز, غەيرەت كەنجى"
+msgstr "Park Shinjo"
 
-#: src/main.cpp:55
+#: src/main.cpp:53
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "sahran.ug@gmail.com,  gheyret@gmail.com"
+msgstr "kde@peremen.name"
 
-#: src/telepathy-base-job.cpp:96
+#: src/telepathy-base-job.cpp:119
 #, kde-format
 msgid "Telepathy reported an error while performing the requested operation:"
 msgid_plural ""
 "Telepathy reported %1 errors while performing the requested operation:"
-msgstr[0] ""
+msgstr[0] "Telepathy가 요청한 작업을 처리하는 중 오류 %1개를 보고하였습니다:"
 
-#: src/telepathy-base-job.cpp:103
+#: src/telepathy-base-job.cpp:126
 #, kde-format
 msgctxt "The following format is: ' - <error name>: <error message>'"
 msgid " - %1: %2"
-msgstr ""
+msgstr " - %1: %2"

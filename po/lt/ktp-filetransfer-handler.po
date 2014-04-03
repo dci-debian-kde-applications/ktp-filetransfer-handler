@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-29 01:42+0000\n"
+"POT-Creation-Date: 2013-10-29 05:04+0000\n"
 "PO-Revision-Date: 2012-10-28 14:23+0200\n"
 "Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -146,7 +146,7 @@ msgid "Alin M Elena"
 msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48 src/main.cpp:49 src/main.cpp:50
+#: src/main.cpp:48 src/main.cpp:49
 msgid "Contributor"
 msgstr "Talkininkas"
 
@@ -170,21 +170,17 @@ msgstr "Martin Klapetek"
 msgid "Andrea Scarpino"
 msgstr ""
 
-#: src/main.cpp:50
-msgid "Dan Vrátil"
-msgstr ""
-
-#: src/main.cpp:54
+#: src/main.cpp:52
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Liudas Ališauskas"
 
-#: src/main.cpp:55
+#: src/main.cpp:53
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "liudas@akmc.lt"
 
-#: src/telepathy-base-job.cpp:96
+#: src/telepathy-base-job.cpp:119
 #, kde-format
 msgid "Telepathy reported an error while performing the requested operation:"
 msgid_plural ""
@@ -194,7 +190,7 @@ msgstr[1] "Telepathy grąžino %1 klaidas vykdant nurodytą operaciją:"
 msgstr[2] "Telepathy grąžino %1 klaidų vykdant nurodytą operaciją:"
 msgstr[3] "Telepathy grąžino %1 klaidą vykdant nurodytą operaciją:"
 
-#: src/telepathy-base-job.cpp:103
+#: src/telepathy-base-job.cpp:126
 #, kde-format
 msgctxt "The following format is: ' - <error name>: <error message>'"
 msgid " - %1: %2"
