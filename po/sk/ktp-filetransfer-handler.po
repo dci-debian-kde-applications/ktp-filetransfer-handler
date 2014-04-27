@@ -1,11 +1,11 @@
 # translation of ktp-filetransfer-handler.po to Slovak
-# Roman Paholik <wizzardsk@gmail.com>, 2012, 2013.
+# Roman Paholik <wizzardsk@gmail.com>, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-29 05:04+0000\n"
-"PO-Revision-Date: 2013-04-19 18:53+0200\n"
+"POT-Creation-Date: 2014-03-12 05:55+0000\n"
+"PO-Revision-Date: 2014-03-13 20:45+0100\n"
 "Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -141,7 +141,7 @@ msgid "Alin M Elena"
 msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48 src/main.cpp:49
+#: src/main.cpp:48 src/main.cpp:49 src/main.cpp:50
 msgid "Contributor"
 msgstr "Prispievateľ"
 
@@ -165,12 +165,16 @@ msgstr "Martin Klapetek"
 msgid "Andrea Scarpino"
 msgstr "Andrea Scarpino"
 
-#: src/main.cpp:52
+#: src/main.cpp:50
+msgid "Dan Vrátil"
+msgstr "Dan Vrátil"
+
+#: src/main.cpp:54
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Roman Paholík"
 
-#: src/main.cpp:53
+#: src/main.cpp:55
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wizzardsk@gmail.com"
