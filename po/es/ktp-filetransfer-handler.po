@@ -1,16 +1,16 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Eloy Cuadra <ecuadra@eloihr.net>, 2011, 2012, 2013.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2011, 2012, 2013, 2014.
 # Kira J. Fernandez <kirajfdez@gmail.com>, 2012.
 # Raul Gonzalez <raulgf83@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-29 05:04+0000\n"
-"PO-Revision-Date: 2013-10-09 21:58+0200\n"
-"Last-Translator: Raul Gonzalez <raulgf83@gmail.com>\n"
+"POT-Creation-Date: 2014-03-12 05:55+0000\n"
+"PO-Revision-Date: 2014-03-26 16:35+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -145,7 +145,7 @@ msgid "Alin M Elena"
 msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48 src/main.cpp:49
+#: src/main.cpp:48 src/main.cpp:49 src/main.cpp:50
 msgid "Contributor"
 msgstr "Colaborador"
 
@@ -169,12 +169,16 @@ msgstr "Martin Klapetek"
 msgid "Andrea Scarpino"
 msgstr "Andrea Scarpino"
 
-#: src/main.cpp:52
+#: src/main.cpp:50
+msgid "Dan Vrátil"
+msgstr "Dan Vrátil"
+
+#: src/main.cpp:54
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Raúl González,Eloy Cuadra"
 
-#: src/main.cpp:53
+#: src/main.cpp:55
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "raulgf83@gmail.com,ecuadra@eloihr.net"

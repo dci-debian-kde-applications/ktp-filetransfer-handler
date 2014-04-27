@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktp-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-29 05:04+0000\n"
+"POT-Creation-Date: 2014-03-12 05:55+0000\n"
 "PO-Revision-Date: 2011-12-28 12:28-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -141,7 +141,7 @@ msgid "Alin M Elena"
 msgstr ""
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48 src/main.cpp:49
+#: src/main.cpp:48 src/main.cpp:49 src/main.cpp:50
 msgid "Contributor"
 msgstr "Cuiditheoir"
 
@@ -165,12 +165,16 @@ msgstr "Martin Klapetek"
 msgid "Andrea Scarpino"
 msgstr ""
 
-#: src/main.cpp:52
+#: src/main.cpp:50
+msgid "Dan Vrátil"
+msgstr ""
+
+#: src/main.cpp:54
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Kevin Scannell"
 
-#: src/main.cpp:53
+#: src/main.cpp:55
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kscanne@gmail.com"

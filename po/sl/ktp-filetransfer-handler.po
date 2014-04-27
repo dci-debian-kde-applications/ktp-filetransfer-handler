@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Andrej Vernekar <andrej.vernekar@gmail.com>, 2012.
-# Andrej Mernik <andrejm@ubuntu.si>, 2013.
+# Andrej Mernik <andrejm@ubuntu.si>, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-29 05:04+0000\n"
-"PO-Revision-Date: 2013-05-25 12:06+0200\n"
+"POT-Creation-Date: 2014-03-12 05:55+0000\n"
+"PO-Revision-Date: 2014-03-20 19:03+0100\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -145,7 +145,7 @@ msgid "Alin M Elena"
 msgstr "Alin M Elena"
 
 #: src/main.cpp:44 src/main.cpp:45 src/main.cpp:46 src/main.cpp:47
-#: src/main.cpp:48 src/main.cpp:49
+#: src/main.cpp:48 src/main.cpp:49 src/main.cpp:50
 msgid "Contributor"
 msgstr "Prispevkar"
 
@@ -169,12 +169,16 @@ msgstr "Martin Klapetek"
 msgid "Andrea Scarpino"
 msgstr "Andrea Scarpino"
 
-#: src/main.cpp:52
+#: src/main.cpp:50
+msgid "Dan Vrátil"
+msgstr "Dan Vrátil"
+
+#: src/main.cpp:54
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Andrej Vernekar,Andrej Mernik"
 
-#: src/main.cpp:53
+#: src/main.cpp:55
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "andrej.vernekar@gmail.com,andrejm@ubuntu.si"
