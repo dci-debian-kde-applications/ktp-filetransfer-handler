@@ -1,4 +1,4 @@
-ktp-filetransfer-handler (0.9.0-0ubuntu1) UNRELEASED; urgency=medium
+ktp-filetransfer-handler (0.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
   * Merge with Debian, no changes
