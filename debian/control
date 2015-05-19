@@ -2,13 +2,22 @@ Source: ktp-filetransfer-handler
 Section: kde
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Diane Trout <diane@ghic.org>, Michał Zając <quintasan@kubuntu.org>, Mark Purcell <msp@debian.org>
-Build-Depends: debhelper (>= 9),
- pkg-kde-tools (>= 0.9),
- libtelepathy-qt4-dev (>= 0.9.3),
- kdelibs5-dev (>= 4:4.6),
- cmake (>= 2.8),
- libktpcommoninternalsprivate-dev (>= 0.8.80)
+Uploaders: Diane Trout <diane@ghic.org>,
+           Michał Zając <quintasan@kubuntu.org>,
+           Mark Purcell <msp@debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 1.3.0~),
+               kdelibs5-dev (>= 4:4.6),
+               kio-dev,
+               libkf5config-dev,
+               libkf5coreaddons-dev,
+               libkf5i18n-dev,
+               libktp-dev,
+               libktpcommoninternalsprivate-dev (>= 0.8.80),
+               libtelepathy-qt4-dev (>= 0.9.3),
+               pkg-kde-tools (>= 0.9),
+               qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-filetransfer-handler
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-filetransfer-handler.git
@@ -16,7 +25,9 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepath
 
 Package: kde-telepathy-filetransfer-handler
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kde-telepathy-data (>= ${source:Upstream-Version})
+Depends: kde-telepathy-data (>= ${source:Upstream-Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: kde-telepathy
 Description: KDE Telepathy file transfer handler
  This package provides a helper application that handles telepathy
@@ -29,7 +40,8 @@ Package: kde-telepathy-filetransfer-handler-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: kde-telepathy-filetransfer-handler (= ${binary:Version}), ${misc:Depends}
+Depends: kde-telepathy-filetransfer-handler (= ${binary:Version}),
+         ${misc:Depends}
 Description: KDE Telepathy file transfer handler - debug symbols
  This package provides the debug symbols for the KDE Telepathy
  file transfer handler.
