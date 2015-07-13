@@ -19,12 +19,13 @@
 
 #include "handle-outgoing-file-transfer-channel-job.h"
 #include "telepathy-base-job_p.h"
+#include "ktp-fth-debug.h"
 
-#include <QtCore/QTimer>
+#include <QTimer>
+#include <QDebug>
+#include <QUrl>
 
 #include <KLocalizedString>
-#include <KDebug>
-#include <KUrl>
 #include <kio/global.h>
 #include <kjobtrackerinterface.h>
 
@@ -43,7 +44,7 @@ public:
 
     Tp::OutgoingFileTransferChannelPtr channel;
     QFile* file;
-    KUrl uri;
+    QUrl uri;
     qulonglong offset;
 
     void init();
@@ -63,7 +64,7 @@ HandleOutgoingFileTransferChannelJob::HandleOutgoingFileTransferChannelJob(Tp::O
                                                                            QObject* parent)
     : TelepathyBaseJob(*new HandleOutgoingFileTransferChannelJobPrivate(), parent)
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
     Q_D(HandleOutgoingFileTransferChannelJob);
 
     d->channel = channel;
@@ -73,12 +74,12 @@ HandleOutgoingFileTransferChannelJob::HandleOutgoingFileTransferChannelJob(Tp::O
 HandleOutgoingFileTransferChannelJob::~HandleOutgoingFileTransferChannelJob()
 {
     KIO::getJobTracker()->unregisterJob(this);
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
 }
 
 void HandleOutgoingFileTransferChannelJob::start()
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
     KIO::getJobTracker()->registerJob(this);
     // KWidgetJobTracker has an internal timer of 500 ms, if we don't wait here
     // when the job description is emitted it won't be ready
@@ -87,7 +88,7 @@ void HandleOutgoingFileTransferChannelJob::start()
 
 bool HandleOutgoingFileTransferChannelJob::doKill()
 {
-    kDebug() << "Outgoing file transfer killed.";
+    qCDebug(KTP_FTH_MODULE) << "Outgoing file transfer killed.";
     Q_D(HandleOutgoingFileTransferChannelJob);
     return d->kill();
 }
@@ -96,21 +97,21 @@ HandleOutgoingFileTransferChannelJobPrivate::HandleOutgoingFileTransferChannelJo
     : file(0),
       offset(0)
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
 }
 
 HandleOutgoingFileTransferChannelJobPrivate::~HandleOutgoingFileTransferChannelJobPrivate()
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
 }
 
 void HandleOutgoingFileTransferChannelJobPrivate::init()
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
     Q_Q(HandleOutgoingFileTransferChannelJob);
 
     if (channel.isNull()) {
-        kError() << "Channel cannot be NULL";
+        qCritical() << "Channel cannot be NULL";
         q->setError(KTp::NullChannel);
         q->setErrorText(i18n("Invalid channel"));
         QTimer::singleShot(0, q, SLOT(__k__doEmitResult()));
@@ -119,16 +120,16 @@ void HandleOutgoingFileTransferChannelJobPrivate::init()
 
     Tp::Features features = Tp::Features() << Tp::FileTransferChannel::FeatureCore;
     if (!channel->isReady(Tp::Features() << Tp::FileTransferChannel::FeatureCore)) {
-        kError() << "Channel must be ready with Tp::FileTransferChannel::FeatureCore";
+        qCritical() << "Channel must be ready with Tp::FileTransferChannel::FeatureCore";
         q->setError(KTp::FeatureNotReady);
         q->setErrorText(i18n("Channel is not ready"));
         QTimer::singleShot(0, q, SLOT(__k__doEmitResult()));
         return;
     }
 
-    uri = KUrl(channel->uri());
+    uri = QUrl(channel->uri());
     if (uri.isEmpty()) {
-        qWarning() << "URI property missing";
+        qCWarning(KTP_FTH_MODULE) << "URI property missing";
         q->setError(KTp::UriPropertyMissing);
         q->setErrorText(i18n("URI property is missing"));
         QTimer::singleShot(0, q, SLOT(__k__doEmitResult()));
@@ -136,7 +137,7 @@ void HandleOutgoingFileTransferChannelJobPrivate::init()
     }
     if (!uri.isLocalFile()) {
         // TODO handle this!
-        qWarning() << "Not a local file";
+        qCWarning(KTP_FTH_MODULE) << "Not a local file";
         q->setError(KTp::NotALocalFile);
         q->setErrorText(i18n("This is not a local file"));
         QTimer::singleShot(0, q, SLOT(__k__doEmitResult()));
@@ -163,12 +164,12 @@ void HandleOutgoingFileTransferChannelJobPrivate::init()
 
 void HandleOutgoingFileTransferChannelJobPrivate::__k__start()
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
     Q_Q(HandleOutgoingFileTransferChannelJob);
 
     Q_ASSERT(!q->error());
     if (q->error()) {
-        kWarning() << "Job was started in error state. Something wrong happened." << q->errorString();
+        qCWarning(KTP_FTH_MODULE) << "Job was started in error state. Something wrong happened." << q->errorString();
         QTimer::singleShot(0, q, SLOT(__k__doEmitResult()));
         return;
     }
@@ -184,7 +185,7 @@ void HandleOutgoingFileTransferChannelJobPrivate::__k__start()
 
 bool HandleOutgoingFileTransferChannelJobPrivate::kill()
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
     Q_Q(HandleOutgoingFileTransferChannelJob);
 
     if (channel->state() != Tp::FileTransferStateCancelled) {
@@ -201,7 +202,7 @@ bool HandleOutgoingFileTransferChannelJobPrivate::kill()
 
 void HandleOutgoingFileTransferChannelJobPrivate::__k__onInitialOffsetDefined(qulonglong offset)
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
     Q_Q(HandleOutgoingFileTransferChannelJob);
 
     this->offset = offset;
@@ -211,21 +212,21 @@ void HandleOutgoingFileTransferChannelJobPrivate::__k__onInitialOffsetDefined(qu
 void HandleOutgoingFileTransferChannelJobPrivate::__k__onFileTransferChannelStateChanged(Tp::FileTransferState state,
                                                                                          Tp::FileTransferStateChangeReason stateReason)
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
     Q_Q(HandleOutgoingFileTransferChannelJob);
 
-    kDebug() << "Outgoing file transfer channel state changed to" << state << "with reason" << stateReason;
+    qCDebug(KTP_FTH_MODULE) << "Outgoing file transfer channel state changed to" << state << "with reason" << stateReason;
 
     switch (state) {
     case Tp::FileTransferStateNone:
         // This is bad
-        kWarning() << "An unknown error occurred.";
+        qCWarning(KTP_FTH_MODULE) << "An unknown error occurred.";
         q->setError(KTp::TelepathyErrorError);
         q->setErrorText(i18n("An unknown error occurred"));
         QTimer::singleShot(0, q, SLOT(__k__doEmitResult()));
         break;
     case Tp::FileTransferStateCompleted:
-        kDebug() << "Outgoing file transfer completed";
+        qCDebug(KTP_FTH_MODULE) << "Outgoing file transfer completed";
         Q_EMIT q->infoMessage(q, i18n("Outgoing file transfer")); // [Finished] is added automatically to the notification
         QTimer::singleShot(0, q, SLOT(__k__doEmitResult()));
         break;
@@ -246,11 +247,11 @@ void HandleOutgoingFileTransferChannelJobPrivate::__k__onFileTransferChannelStat
 
 void HandleOutgoingFileTransferChannelJobPrivate::provideFile()
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
     Q_Q(HandleOutgoingFileTransferChannelJob);
 
     file = new QFile(uri.toLocalFile(), q->parent());
-    kDebug() << "Providing file" << file->fileName();
+    qCDebug(KTP_FTH_MODULE) << "Providing file" << file->fileName();
 
     Tp::PendingOperation* provideFileOperation = channel->provideFile(file);
     q->connect(provideFileOperation,
@@ -260,10 +261,10 @@ void HandleOutgoingFileTransferChannelJobPrivate::provideFile()
 
 void HandleOutgoingFileTransferChannelJobPrivate::__k__onFileTransferChannelTransferredBytesChanged(qulonglong count)
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
     Q_Q(HandleOutgoingFileTransferChannelJob);
 
-    kDebug().nospace() << "Sending " << channel->fileName() << " - "
+    qCDebug(KTP_FTH_MODULE).nospace() << "Sending " << channel->fileName() << " - "
                        << "Transferred bytes = " << offset + count << " ("
                        << ((int)(((double)(offset + count) / channel->size()) * 100)) << "% done)";
     q->setProcessedAmountAndCalculateSpeed(offset + count);
@@ -273,11 +274,11 @@ void HandleOutgoingFileTransferChannelJobPrivate::__k__onProvideFileFinished(Tp:
 {
     // This method is called when the "provideFile" operation is finished,
     // therefore the file was not sent yet.
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
     Q_Q(HandleOutgoingFileTransferChannelJob);
 
     if (op->isError()) {
-        kWarning() << "Unable to provide file - " << op->errorName() << ":" << op->errorMessage();
+        qCWarning(KTP_FTH_MODULE) << "Unable to provide file - " << op->errorName() << ":" << op->errorMessage();
         q->setError(KTp::ProvideFileError);
         q->setErrorText(i18n("Cannot provide file"));
         QTimer::singleShot(0, q, SLOT(__k__doEmitResult()));
@@ -286,29 +287,28 @@ void HandleOutgoingFileTransferChannelJobPrivate::__k__onProvideFileFinished(Tp:
 
 void HandleOutgoingFileTransferChannelJobPrivate::__k__onCancelOperationFinished(Tp::PendingOperation* op)
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
     Q_Q(HandleOutgoingFileTransferChannelJob);
 
     if (op->isError()) {
-        kWarning() << "Unable to cancel file transfer - " << op->errorName() << ":" << op->errorMessage();
+        qCWarning(KTP_FTH_MODULE) << "Unable to cancel file transfer - " << op->errorName() << ":" << op->errorMessage();
         q->setError(KTp::CancelFileTransferError);
         q->setErrorText(i18n("Cannot cancel outgoing file transfer"));
     }
 
-    kDebug() << "File transfer cancelled";
+    qCDebug(KTP_FTH_MODULE) << "File transfer cancelled";
     QTimer::singleShot(0, q, SLOT(__k__doEmitResult()));
 }
 
 void HandleOutgoingFileTransferChannelJobPrivate::__k__onInvalidated()
 {
-    kDebug();
+    qCDebug(KTP_FTH_MODULE);
     Q_Q(HandleOutgoingFileTransferChannelJob);
 
-    kWarning() << "File transfer invalidated!" << channel->invalidationMessage() << "reason" << channel->invalidationReason();
+    qCWarning(KTP_FTH_MODULE) << "File transfer invalidated!" << channel->invalidationMessage() << "reason" << channel->invalidationReason();
     Q_EMIT q->infoMessage(q, i18n("File transfer invalidated. %1", channel->invalidationMessage()));
 
     QTimer::singleShot(0, q, SLOT(__k__doEmitResult()));
 }
 
-
-#include "handle-outgoing-file-transfer-channel-job.moc"
+#include "moc_handle-outgoing-file-transfer-channel-job.cpp"
