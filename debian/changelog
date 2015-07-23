@@ -4,6 +4,8 @@ ktp-filetransfer-handler (15.04.3-1) UNRELEASED; urgency=medium
   * Update watch file for KTp's move to Applications.
   * Update Diane Trout's email address.
   * New upstream release.
+  * Update build depends for move to kf5 and the
+    rename of libktpcommoninternalsprivate-dev to libktp-dev
 
  -- Diane Trout <diane@debian.org>  Wed, 27 May 2015 23:10:33 -0700
 
