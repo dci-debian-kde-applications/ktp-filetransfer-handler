@@ -1,4 +1,3 @@
-usr/lib/kde4/libexec/ktp-filetransfer-handler
+usr/lib/*/libexec/ktp-filetransfer-handler
 usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.KTp.FileTransferHandler.service
 usr/share/telepathy/clients/KTp.FileTransferHandler.client
-usr/share/locale/*

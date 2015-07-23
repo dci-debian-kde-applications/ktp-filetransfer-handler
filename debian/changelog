@@ -12,6 +12,7 @@ ktp-filetransfer-handler (15.04.3-1) UNRELEASED; urgency=medium
   * Use dhmk from pkg-kde-tools to build ktp.
     - Change maintainer to debian-qt-kde
     - Update debian/rules
+  * Update path for ktp-filetransfer-handler
 
  -- Diane Trout <diane@debian.org>  Wed, 27 May 2015 23:10:33 -0700
 
