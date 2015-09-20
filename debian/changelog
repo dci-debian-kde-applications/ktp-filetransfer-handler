@@ -15,6 +15,7 @@ ktp-filetransfer-handler (15.08.1-1) UNRELEASED; urgency=medium
   * Update path for ktp-filetransfer-handler
   * Add KDE's unstable download url to watch file
   * Fix typo in --dbg-package name for dh_strip
+  * Fix typo in copyright file short license name.
 
  -- Diane Trout <diane@debian.org>  Sun, 09 Aug 2015 15:00:59 -0700
 
