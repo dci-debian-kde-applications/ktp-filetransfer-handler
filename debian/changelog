@@ -2,7 +2,6 @@ ktp-filetransfer-handler (15.08.2-1) UNRELEASED; urgency=medium
 
   * Apply homepage update patch from Matthew Cope
   * Update watch file for KTp's move to Applications.
-  * Update Diane Trout's email address.
   * New upstream release.
   * Update build depends for move to kf5 and the
     rename of libktpcommoninternalsprivate-dev to libktp-dev
