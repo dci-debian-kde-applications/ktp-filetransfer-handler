@@ -1,4 +1,4 @@
-ktp-filetransfer-handler (15.08.2-1) UNRELEASED; urgency=medium
+ktp-filetransfer-handler (15.08.2-1) unstable; urgency=medium
 
   * Apply homepage update patch from Matthew Cope
   * Update watch file for KTp's move to Applications.
@@ -16,7 +16,7 @@ ktp-filetransfer-handler (15.08.2-1) UNRELEASED; urgency=medium
   * Fix typo in --dbg-package name for dh_strip
   * Fix typo in copyright file short license name.
 
- -- Diane Trout <diane@debian.org>  Tue, 03 Nov 2015 22:16:36 -0800
+ -- Diane Trout <diane@ghic.org>  Sat, 07 Nov 2015 10:57:35 -0800
 
 ktp-filetransfer-handler (0.9.0-1) unstable; urgency=medium
 
