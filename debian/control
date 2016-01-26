@@ -13,7 +13,6 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5coreaddons-dev,
                libkf5i18n-dev,
                libktp-dev,
-               libktpcommoninternalsprivate-dev (>= 0.8.80),
                pkg-kde-tools (>= 0.9),
                qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
