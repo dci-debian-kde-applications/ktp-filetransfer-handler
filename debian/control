@@ -1,51 +1,31 @@
 Source: ktp-filetransfer-handler
 Section: kde
 Priority: optional
-Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Diane Trout <diane@ghic.org>,
            Michał Zając <quintasan@kubuntu.org>,
            Mark Purcell <msp@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules,
-               gettext,
+               extra-cmake-modules (>= 1.3.0~),
                kio-dev,
-               libkf5attica-dev,
-               libkf5auth-dev,
-               libkf5bookmarks-dev,
-               libkf5codecs-dev,
-               libkf5completion-dev,
                libkf5config-dev,
-               libkf5configwidgets-dev,
                libkf5coreaddons-dev,
-               libkf5dbusaddons-dev,
-               libkf5globalaccel-dev,
-               libkf5guiaddons-dev,
                libkf5i18n-dev,
-               libkf5iconthemes-dev,
-               libkf5itemviews-dev,
-               libkf5jobwidgets-dev,
-               libkf5service-dev,
-               libkf5solid-dev,
-               libkf5sonnet-dev,
-               libkf5textwidgets-dev,
                libkf5wallet-dev,
-               libkf5widgetsaddons-dev,
-               libkf5windowsystem-dev,
-               libkf5xmlgui-dev,
-               libktp-dev,
+               libktp-dev (>= 15.12),
                libtelepathy-logger-qt-dev,
-               libtelepathy-qt5-dev,
-               pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev
+               libtelepathy-qt5-dev (>= 0.9.3),
+               pkg-kde-tools (>= 0.9),
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
-Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-filetransfer-handler
-Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/ktp-filetransfer-handler.git
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/ktp-filetransfer-handler.git
+Homepage: https://projects.kde.org/projects/kde/kdenetwork/ktp-filetransfer-handler
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-filetransfer-handler.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/ktp-filetransfer-handler.git
 
 Package: kde-telepathy-filetransfer-handler
 Architecture: any
-Depends: kde-telepathy-data, ${misc:Depends}, ${shlibs:Depends}
+Depends: kde-telepathy-data (>= 0.8.1), ${misc:Depends}, ${shlibs:Depends}
 Recommends: kde-telepathy
 Description: KDE Telepathy file transfer handler
  This package provides a helper application that handles telepathy
@@ -53,13 +33,3 @@ Description: KDE Telepathy file transfer handler
  .
  This package is not meant to be used standalone. It is recommended
  to install the kde-telepathy metapackage instead.
-
-Package: kde-telepathy-filetransfer-handler-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: kde-telepathy-filetransfer-handler (= ${binary:Version}),
-         ${misc:Depends}
-Description: KDE Telepathy file transfer handler - debug symbols
- This package provides the debug symbols for the KDE Telepathy
- file transfer handler.
