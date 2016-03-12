@@ -1,6 +1,7 @@
 ktp-filetransfer-handler (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release
+  * Bump ktp* dependency versions. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 22:13:16 -0800
 
