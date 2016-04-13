@@ -16,7 +16,7 @@ Build-Depends: debhelper (>= 9),
  libkf5i18n-dev,
  libkf5wallet-dev,
  qtbase5-dev,
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/kde/kdenetwork/ktp-filetransfer-handler
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-filetransfer-handler.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/ktp-filetransfer-handler.git
