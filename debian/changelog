@@ -1,6 +1,6 @@
-ktp-filetransfer-handler (16.04.0-1~1.gbp04c7b9) UNRELEASED; urgency=medium
+ktp-filetransfer-handler (16.04.1-1~1.gbpfe0a4d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @04c7b950a214e1758ad7ef9b3e7b53b4444d81b1 **
+  ** SNAPSHOT build @fe0a4d4c9012e6ca35cd509670885655c2989050 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @6e50517147093046f8f769a73708fd4a06977e0a **
@@ -9,6 +9,7 @@ ktp-filetransfer-handler (16.04.0-1~1.gbp04c7b9) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * upstream branch
   * Add a .gitattributes file to use dpkg-mergechangelogs
+  * UNRELEASED
 
   [ Daniele E. Domenichelli ]
   * Initial empty commit
@@ -214,7 +215,7 @@ ktp-filetransfer-handler (16.04.0-1~1.gbp04c7b9) UNRELEASED; urgency=medium
   * GIT_SILENT Upgrade KDE Applications version to 15.12.2.
   * GIT_SILENT Upgrade KDE Applications version to 15.12.3.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 26 Apr 2016 16:11:22 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:41:14 +0200
 
 ktp-filetransfer-handler (15.12.1-2) experimental; urgency=medium
 
