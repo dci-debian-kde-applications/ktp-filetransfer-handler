@@ -1,11 +1,12 @@
-ktp-filetransfer-handler (16.08.0-1~1.gbpdb0291) UNRELEASED; urgency=medium
+ktp-filetransfer-handler (16.08.1-1~1.gbpd7f6cb) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @db02916d9d5ea90d64159bbed5bd64d68f388e73 **
+  ** SNAPSHOT build @d7f6cbd4d22c5b9e493db3f420e6c531e99edf1c **
 
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:41:25 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:41:44 +0200
 
 ktp-filetransfer-handler (16.04.2-1) experimental; urgency=medium
 
