@@ -26,6 +26,8 @@ Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/ktp-filetransfe
 Package: kde-telepathy-filetransfer-handler
 Architecture: any
 Depends: kde-telepathy-data (>= 0.8.1), ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Recommends: kde-telepathy
 Description: KDE Telepathy file transfer handler
  This package provides a helper application that handles telepathy
