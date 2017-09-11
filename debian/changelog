@@ -1,15 +1,6 @@
 ktp-filetransfer-handler (17.08.1-1~) UNRELEASED; urgency=medium
 
-  [ Maximiliano Curia ]
-  ** SNAPSHOT build @d7f6cbd4d22c5b9e493db3f420e6c531e99edf1c **
-
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
   * New upstream release (17.08.1).
-
-  [ Automatic packaging ]
-  * Update changelog for 16.08.1-1~1.gbpd7f6cb release
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Sep 2017 16:07:55 +0200
 
