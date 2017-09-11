@@ -1,8 +1,11 @@
-ktp-filetransfer-handler (17.08.1-1~) UNRELEASED; urgency=medium
+ktp-filetransfer-handler (17.08.1-1) experimental; urgency=medium
 
   * New upstream release (17.08.1).
+  * Drop soon to be deprecated fail-missing
+  * Add breaks/replaces against the kde-l10n packages
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Sep 2017 16:07:55 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Sep 2017 19:59:13 +0200
 
 ktp-filetransfer-handler (16.04.2-1) experimental; urgency=medium
 
