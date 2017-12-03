@@ -1,12 +1,12 @@
 # Translation of ktp-filetransfer-handler.po into Serbian.
 # Mladen Pejakovic <pejakm@gmail.com>, 2012.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2012, 2013.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2012, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-11-19 20:16+0100\n"
-"PO-Revision-Date: 2013-10-05 17:01+0200\n"
+"PO-Revision-Date: 2017-09-28 18:00+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr\n"
@@ -163,8 +163,7 @@ msgid ""
 "Copyright (C) 2010, 2011, 2012 Daniele E. Domenichelli <daniele."
 "domenichelli@gmail.com>"
 msgstr ""
-"© 2010, 2011, 2012, Данијеле Доменичели &lt;daniele.domenichelli@gmail."
-"com&gt;"
+"© 2010, 2011, 2012, Данијеле Доменичели <daniele.domenichelli@gmail.com>"
 
 #: src/main.cpp:41
 #, kde-format
