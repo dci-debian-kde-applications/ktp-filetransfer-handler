@@ -1,17 +1,17 @@
 # Translation of ktp-filetransfer-handler.po to Catalan (Valencian)
-# Copyright (C) 2012-2016 This_file_is_part_of_KDE
+# Copyright (C) 2012-2017 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep Ma. Ferrer <txemaq@gmail.com>, 2012, 2013, 2014.
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2012, 2013, 2014, 2017.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-filetransfer-handler\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-11-19 20:16+0100\n"
-"PO-Revision-Date: 2016-09-08 21:24+0100\n"
-"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
+"PO-Revision-Date: 2017-09-24 20:16+0100\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
@@ -116,7 +116,7 @@ msgstr "S'ha invalidat la transferència del fitxer. %1"
 #: src/handle-outgoing-file-transfer-channel-job.cpp:134
 #, kde-format
 msgid "URI property is missing"
-msgstr "Falta la propietat de la URI"
+msgstr "Falta la propietat de l'URI"
 
 #: src/handle-outgoing-file-transfer-channel-job.cpp:142
 #, kde-format
@@ -234,11 +234,3 @@ msgstr[1] ""
 msgctxt "The following format is: ' - <error name>: <error message>'"
 msgid " - %1: %2"
 msgstr " - %1: %2"
-
-#~ msgid "File transfer handler is exiting. Cannot start job"
-#~ msgstr ""
-#~ "El gestor de transferències de fitxers està finalitzant. No es pot "
-#~ "iniciar el treball."
-
-#~ msgid "Cannot handle outgoing file transfer without URI"
-#~ msgstr "No es pot gestionar la transferència de fitxer sortint sense URI"
